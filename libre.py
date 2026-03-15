@@ -9,7 +9,7 @@ BASE_URL = os.getenv("LIBRE_API_URL", "https://api-eu.libreview.io")
 
 HEADERS = {
     "product": "llu.android",
-    "version": "4.12.0",
+    "version": "4.16.0",
     "Accept": "application/json",
     "Content-Type": "application/json",
 }
