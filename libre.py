@@ -20,6 +20,7 @@ class LibreClient:
         self.email = os.getenv("LIBRE_EMAIL")
         self.password = os.getenv("LIBRE_PASSWORD")
         self.token: Optional[str] = None
+        self.account_id: Optional[str] = None
         self.patient_id: Optional[str] = None
 
     async def login(self, _redirect_count: int = 0) -> bool:
@@ -36,29 +37,35 @@ class LibreClient:
             )
             r.raise_for_status()
             data = r.json()
-            logger.info(f"Login response status: {data.get('status')} | keys: {list(data.keys())}")
+            logger.info(f"Login status: {data.get('status')} | keys: {list(data.get('data', {}).keys())}")
 
             if data.get("data", {}).get("redirect"):
                 region = data["data"]["region"]
                 BASE_URL = f"https://api-{region}.libreview.io"
-                logger.info(f"Redirecionando para região: {region} → {BASE_URL}")
+                logger.info(f"Redirecionando para região: {region}")
                 return await self.login(_redirect_count=_redirect_count + 1)
 
-            # Status 2 = precisa aceitar termos
-            status = data.get("status")
-            if status == 2:
-                logger.info("Aceitando termos de uso via API...")
+            if data.get("status") == 2:
+                logger.info("Aceitando termos de uso...")
                 await self._accept_terms()
-                # Faz login novamente após aceitar
                 return await self.login(_redirect_count=_redirect_count + 1)
 
-            token = data.get("data", {}).get("authTicket", {}).get("token")
-            if not token:
-                logger.error(f"Token não encontrado na resposta: {data}")
-                raise RuntimeError("Token não encontrado na resposta do login")
+            auth_ticket = data.get("data", {}).get("authTicket", {})
+            self.token = auth_ticket.get("token")
 
-            self.token = token
-            logger.info("Login LibreLinkUp OK")
+            # Captura o account-id — vem em diferentes campos dependendo da versão
+            user_data = data.get("data", {}).get("user", {})
+            self.account_id = (
+                user_data.get("id")
+                or user_data.get("accountId")
+                or data.get("data", {}).get("accountId")
+            )
+
+            logger.info(f"Login OK | account_id: {self.account_id} | token: {'sim' if self.token else 'não'}")
+
+            if not self.token:
+                raise RuntimeError(f"Token não encontrado: {data}")
+
             return True
 
     async def _accept_terms(self):
@@ -69,15 +76,24 @@ class LibreClient:
                 json={},
                 timeout=10,
             )
-            logger.info(f"Aceite de termos: {r.status_code} | {r.text[:200]}")
+            logger.info(f"Termos aceitos: {r.status_code}")
+
+    def _build_headers(self) -> dict:
+        headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
+        if self.account_id:
+            headers["account-id"] = self.account_id
+        return headers
 
     async def _authed_get(self, path: str, _retried: bool = False) -> dict:
         if not self.token:
             await self.login()
 
-        headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
         async with httpx.AsyncClient() as client:
-            r = await client.get(f"{BASE_URL}{path}", headers=headers, timeout=15)
+            r = await client.get(
+                f"{BASE_URL}{path}",
+                headers=self._build_headers(),
+                timeout=15,
+            )
 
         if not r.is_success:
             logger.error(f"LibreAPI {r.status_code} em {path} | corpo: {r.text[:500]}")
@@ -138,3 +154,4 @@ class LibreClient:
 
 # Singleton
 libre_client = LibreClient()
+
