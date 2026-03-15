@@ -1,0 +1,6258 @@
+[
+  {
+    "nome": "Amido de arroz",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 69.0,
+    "cho_g": 17.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Aipim frito",
+    "medida": "1 pedaço médio",
+    "peso_g": 70.0,
+    "kcal": 211.0,
+    "cho_g": 35.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Amido de milho",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 72.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz à grega",
+    "medida": "1 colher de servir",
+    "peso_g": 60.0,
+    "kcal": 75.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz branco cozido",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 26.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz branco cozido (instantâneo)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 28.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz com amêndoas",
+    "medida": "1 colher de servir",
+    "peso_g": 60.0,
+    "kcal": 75.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz com linguiça",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 60.0,
+    "kcal": 116.0,
+    "cho_g": 12.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz com pequi",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 60.0,
+    "kcal": 97.0,
+    "cho_g": 17.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz doce diet",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 41.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz integral com brócolis",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 26.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz integral cozido",
+    "medida": "1 colher de servir",
+    "peso_g": 50.0,
+    "kcal": 54.0,
+    "cho_g": 12.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz piamontese",
+    "medida": "1 colher de servir rasa",
+    "peso_g": 40.0,
+    "kcal": 72.0,
+    "cho_g": 8.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz Ráris Fit® (média)",
+    "medida": "1/ xícara de chá 4",
+    "peso_g": 45.0,
+    "kcal": 158.0,
+    "cho_g": 32.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Arroz sírio",
+    "medida": "1 colher de servir",
+    "peso_g": 45.0,
+    "kcal": 69.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bagel gergelim Wickbol®",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 121.0,
+    "cho_g": 21.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Barra de biscoito integral morango Nutry®",
+    "medida": "1 barra",
+    "peso_g": 20.0,
+    "kcal": 83.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Barra de cereal diet (média)",
+    "medida": "1 unidade",
+    "peso_g": 25.0,
+    "kcal": 67.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Barra de cereal banana com chocolate zero Trio®",
+    "medida": "1 barra",
+    "peso_g": 22.0,
+    "kcal": 78.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Barra de granola crocante Nature Valley®",
+    "medida": "1 barra",
+    "peso_g": 21.0,
+    "kcal": 96.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Batata baroa cozida",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 35.0,
+    "kcal": 28.0,
+    "cho_g": 7.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Batata doce assada",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 30.0,
+    "kcal": 43.0,
+    "cho_g": 11.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Batata doce frita",
+    "medida": "1 fatia média",
+    "peso_g": 65.0,
+    "kcal": 249.0,
+    "cho_g": 39.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Batata inglesa frita",
+    "medida": "1 colher de servir cheia",
+    "peso_g": 50.0,
+    "kcal": 140.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Batata inglesa sauté",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 25.0,
+    "kcal": 37.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Batata Yacon",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 8.0,
+    "cho_g": 2.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Beiju de queijo com manteiga",
+    "medida": "1 unidade média",
+    "peso_g": 150.0,
+    "kcal": 518.0,
+    "cho_g": 87.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito água",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 23.0,
+    "cho_g": 3.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito amanteigado",
+    "medida": "1 unidade",
+    "peso_g": 4.0,
+    "kcal": 26.0,
+    "cho_g": 3.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito bichinhos Piraquê®",
+    "medida": "1 unidade",
+    "peso_g": 1.0,
+    "kcal": 5.0,
+    "cho_g": 1.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito cream cracker®",
+    "medida": "1 unidade",
+    "peso_g": 7.0,
+    "kcal": 29.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito de farinha integral",
+    "medida": "1 unidade",
+    "peso_g": 10.0,
+    "kcal": 40.0,
+    "cho_g": 7.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito de leite Nestlé®",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 38.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito de milho verde Nestlé®",
+    "medida": "1 unidade",
+    "peso_g": 6.0,
+    "kcal": 27.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito de queijo",
+    "medida": "1 unidade",
+    "peso_g": 12.0,
+    "kcal": 51.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito frito salgado",
+    "medida": "3 unidades",
+    "peso_g": 50.0,
+    "kcal": 214.0,
+    "cho_g": 26.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito integral 3 cereais Nestlé®",
+    "medida": "1 pacote",
+    "peso_g": 21.0,
+    "kcal": 92.0,
+    "cho_g": 14.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito maisena Nestlé®",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 22.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito centeio Nesfit",
+    "medida": "1 unidade",
+    "peso_g": 4.0,
+    "kcal": 17.0,
+    "cho_g": 2.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito recheado (média)",
+    "medida": "1 unidade",
+    "peso_g": 13.0,
+    "kcal": 58.0,
+    "cho_g": 8.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito recheado diet (média)",
+    "medida": "1 unidade pequena",
+    "peso_g": 10.0,
+    "kcal": 37.0,
+    "cho_g": 8.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito Salpet®",
+    "medida": "1 unidade",
+    "peso_g": 2.5,
+    "kcal": 12.0,
+    "cho_g": 2.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito tipo cookies (média)",
+    "medida": "1 unidade",
+    "peso_g": 10.0,
+    "kcal": 47.0,
+    "cho_g": 7.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito tipo sequilhos (média)",
+    "medida": "1 unidade pequena",
+    "peso_g": 3.0,
+    "kcal": 13.0,
+    "cho_g": 2.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito tipo waffer diet (média)",
+    "medida": "1 unidade",
+    "peso_g": 7.0,
+    "kcal": 39.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Biscoito waffer chocolate Lowçucar®",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 39.0,
+    "cho_g": 3.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bisnaguinha mini Scooby-Doo Wickbold®",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 28.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bisnaguinha Seven Boys®",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 62.0,
+    "cho_g": 11.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolinho de chuva",
+    "medida": "1 unidade pequena",
+    "peso_g": 20.0,
+    "kcal": 54.0,
+    "cho_g": 8.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo alemão",
+    "medida": "1 fatia",
+    "peso_g": 60.0,
+    "kcal": 227.0,
+    "cho_g": 30.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de abacaxi zero adição de açúcar Suavipan®",
+    "medida": "1 fatia média",
+    "peso_g": 40.0,
+    "kcal": 145.0,
+    "cho_g": 20.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de aipim com coco",
+    "medida": "1 fatia grande",
+    "peso_g": 100.0,
+    "kcal": 303.0,
+    "cho_g": 46.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de banana",
+    "medida": "1 fatia grande",
+    "peso_g": 100.0,
+    "kcal": 301.0,
+    "cho_g": 47.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de caneca chocolate zero Vitao®",
+    "medida": "1 unidade",
+    "peso_g": 55.0,
+    "kcal": 175.0,
+    "cho_g": 39.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de cenoura",
+    "medida": "1 fatia média",
+    "peso_g": 60.0,
+    "kcal": 227.0,
+    "cho_g": 38.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de chocolate",
+    "medida": "1 fatia média",
+    "peso_g": 40.0,
+    "kcal": 164.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de festa (recheio/ cobertura)",
+    "medida": "1 fatia grande",
+    "peso_g": 100.0,
+    "kcal": 320.0,
+    "cho_g": 54.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo de fubá",
+    "medida": "1 fátia média",
+    "peso_g": 50.0,
+    "kcal": 160.0,
+    "cho_g": 20.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo recheado light Suavipan®",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 117.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Bolo simples sem cobertura",
+    "medida": "1 fatia média",
+    "peso_g": 40.0,
+    "kcal": 143.0,
+    "cho_g": 21.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Brioche ou rosca",
+    "medida": "1 fatia média",
+    "peso_g": 25.0,
+    "kcal": 88.0,
+    "cho_g": 12.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Broa de fubá",
+    "medida": "1 pedaço",
+    "peso_g": 10.0,
+    "kcal": 39.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Canelone à bolonhesa",
+    "medida": "1 unidade média",
+    "peso_g": 45.0,
+    "kcal": 76.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Canelone de peito de peru, queijo e brócolis",
+    "medida": "1 unidade média",
+    "peso_g": 45.0,
+    "kcal": 62.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Capeletti de carne",
+    "medida": "1 escumadeira",
+    "peso_g": 50.0,
+    "kcal": 141.0,
+    "cho_g": 25.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Capeletti de presunto",
+    "medida": "1 escumadeira",
+    "peso_g": 50.0,
+    "kcal": 143.0,
+    "cho_g": 25.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cará refogado",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 27.0,
+    "kcal": 31.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cereal matinal chocolate Vitalin®",
+    "medida": "3/4 xícara de chá",
+    "peso_g": 30.0,
+    "kcal": 121.0,
+    "cho_g": 24.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cereal matinal de milho com açúcar",
+    "medida": "1 xícara de chá",
+    "peso_g": 40.0,
+    "kcal": 151.0,
+    "cho_g": 36.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cereal matinal tradicional Vitalin®",
+    "medida": "3/4 xícara de chá",
+    "peso_g": 30.0,
+    "kcal": 115.0,
+    "cho_g": 26.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cereal Neston®",
+    "medida": "2 colheres de sopa",
+    "peso_g": 23.0,
+    "kcal": 80.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Chips de batata doce Fhom® (média)",
+    "medida": "1 xícara de chá",
+    "peso_g": 25.0,
+    "kcal": 138.0,
+    "cho_g": 17.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Chocotone",
+    "medida": "1 fatia grande",
+    "peso_g": 60.0,
+    "kcal": 240.0,
+    "cho_g": 33.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies de aveia cacau e avelã Quacker®",
+    "medida": "1 unidade",
+    "peso_g": 10.0,
+    "kcal": 39.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies de aveia com passas Quacker®",
+    "medida": "1 unidade",
+    "peso_g": 10.0,
+    "kcal": 39.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies diet integrais cacau com gotas de chocolate Vitao®",
+    "medida": "9 unidades",
+    "peso_g": 30.0,
+    "kcal": 132.0,
+    "cho_g": 20.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies integrais diet de banana Vitao®",
+    "medida": "1 unidade",
+    "peso_g": 6.0,
+    "kcal": 24.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies integrais diet de laranja Vitao®",
+    "medida": "1 unidade",
+    "peso_g": 6.0,
+    "kcal": 23.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies integrais castanha de caju Jasmine®",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 32.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cookies integrais de soja sem glúten Good Soy®",
+    "medida": "1 unidade",
+    "peso_g": 17.0,
+    "kcal": 65.0,
+    "cho_g": 9.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Corn Flakes Kellogg’s®",
+    "medida": "1 xícara de chá",
+    "peso_g": 30.0,
+    "kcal": 108.0,
+    "cho_g": 24.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Creme de baunilha/choco/coco/ caramelo",
+    "medida": "1 colher de sopa",
+    "peso_g": 33.0,
+    "kcal": 37.0,
+    "cho_g": 7.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Croissant",
+    "medida": "1 unidade grande",
+    "peso_g": 80.0,
+    "kcal": 328.0,
+    "cho_g": 32.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Croissant de queijo",
+    "medida": "1 unidade grande",
+    "peso_g": 80.0,
+    "kcal": 388.0,
+    "cho_g": 32.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Croutons integral (média)",
+    "medida": "1 xícara de chá",
+    "peso_g": 30.0,
+    "kcal": 108.0,
+    "cho_g": 20.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Cuscuz de milho",
+    "medida": "2/3 xícara de chá",
+    "peso_g": 140.0,
+    "kcal": 162.0,
+    "cho_g": 33.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Espaguetti de feijão-azuki com soja Fit Food®",
+    "medida": "1 prato",
+    "peso_g": 80.0,
+    "kcal": 282.0,
+    "cho_g": 34.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Espaguetti de palmito à bolonhesa",
+    "medida": "1 unidade comercial",
+    "peso_g": 300.0,
+    "kcal": 214.0,
+    "cho_g": 9.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farelo de aveia",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 34.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de arroz",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 17.0,
+    "kcal": 62.0,
+    "cho_g": 14.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de centeio",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 49.0,
+    "cho_g": 10.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de mandioca",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 16.0,
+    "kcal": 57.0,
+    "cho_g": 14.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de milho integral",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 16.0,
+    "kcal": 62.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de semolina",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 72.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de tapioca",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 58.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha de trigo",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 71.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha láctea com aveia Nestlé®",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 8.0,
+    "kcal": 30.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farinha pronta para massa salgada Vitao®",
+    "medida": "1 fatia de massa pronta – 50g",
+    "peso_g": 27.0,
+    "kcal": 91.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farofa com linguiça",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 54.0,
+    "cho_g": 7.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farofa de ovo",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 77.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Farofa pronta Yoki®",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 35.0,
+    "kcal": 143.0,
+    "cho_g": 28.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Fettuccine tradicional",
+    "medida": "1 pegador",
+    "peso_g": 110.0,
+    "kcal": 150.0,
+    "cho_g": 24.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Flocos de aveia",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 9.0,
+    "cho_g": 2.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Flocos de milho Milharina®",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 68.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Fubá",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 72.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Germe de trigo",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 34.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Granola frutas e mel sem açúcar Mãe Terra®",
+    "medida": "3/4 xícara de chá",
+    "peso_g": 40.0,
+    "kcal": 154.0,
+    "cho_g": 26.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Granola sem açúcar",
+    "medida": "1 colher de sopa",
+    "peso_g": 11.0,
+    "kcal": 42.0,
+    "cho_g": 8.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Granola tradicional Mãe Terra®",
+    "medida": "3/4 xícara de chá",
+    "peso_g": 40.0,
+    "kcal": 156.0,
+    "cho_g": 28.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Inhame cozido (picado)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 35.0,
+    "kcal": 37.0,
+    "cho_g": 8.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Lasanha",
+    "medida": "1 pedaço médio",
+    "peso_g": 170.0,
+    "kcal": 335.0,
+    "cho_g": 27.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Legumitos Fit Food® (média sabores)",
+    "medida": "1 ½ xícara de chá",
+    "peso_g": 25.0,
+    "kcal": 95.0,
+    "cho_g": 12.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão à bolonhesa",
+    "medida": "1 pegador",
+    "peso_g": 110.0,
+    "kcal": 136.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão ao molho branco",
+    "medida": "1 pegador",
+    "peso_g": 110.0,
+    "kcal": 171.0,
+    "cho_g": 27.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão com queijo instântaneo Maggi®",
+    "medida": "1 unidade comercial",
+    "peso_g": 80.0,
+    "kcal": 370.0,
+    "cho_g": 50.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão de milho Tivva®",
+    "medida": "1 xícara de chá",
+    "peso_g": 80.0,
+    "kcal": 283.0,
+    "cho_g": 67.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão integral cozido",
+    "medida": "1 colher escumadeira cheia",
+    "peso_g": 110.0,
+    "kcal": 135.0,
+    "cho_g": 29.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão Nissin Miojo® Lámen (média)",
+    "medida": "1 unidade comercial",
+    "peso_g": 85.0,
+    "kcal": 360.0,
+    "cho_g": 49.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Macarrão simples cozido",
+    "medida": "1 pegador",
+    "peso_g": 110.0,
+    "kcal": 119.0,
+    "cho_g": 24.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Mandioca cozida",
+    "medida": "1 pedaço médio",
+    "peso_g": 60.0,
+    "kcal": 74.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Mandioca/Macaxeira frita",
+    "medida": "1 pedaço médio",
+    "peso_g": 80.0,
+    "kcal": 212.0,
+    "cho_g": 35.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Massa de panqueca",
+    "medida": "1 unidade pequena",
+    "peso_g": 30.0,
+    "kcal": 50.0,
+    "cho_g": 10.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Massa de rigatone com legumes e queijo branco",
+    "medida": "1 colher de sevir",
+    "peso_g": 75.0,
+    "kcal": 122.0,
+    "cho_g": 16.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Mexicanitos Multigrãos Tortilhas Fhom ®",
+    "medida": "1 xícara de chá",
+    "peso_g": 25.0,
+    "kcal": 137.0,
+    "cho_g": 16.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Milho verde (espiga)",
+    "medida": "1 espiga grande",
+    "peso_g": 100.0,
+    "kcal": 138.0,
+    "cho_g": 30.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Mix 7 grãos Quacker®",
+    "medida": "½ xícara de chá",
+    "peso_g": 40.0,
+    "kcal": 137.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Mucilon® Cereal Infantil de arroz",
+    "medida": "3 colheres de sopa",
+    "peso_g": 21.0,
+    "kcal": 78.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Muffin (média)",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 121.0,
+    "cho_g": 17.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Nhoque de batata cozido",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 30.0,
+    "kcal": 55.0,
+    "cho_g": 11.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pamonha doce",
+    "medida": "1 unidade grande",
+    "peso_g": 130.0,
+    "kcal": 335.0,
+    "cho_g": 47.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Panetone diet (média)",
+    "medida": "1 fatia grande",
+    "peso_g": 60.0,
+    "kcal": 150.0,
+    "cho_g": 28.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Panqueca mistura integral Vitalin®",
+    "medida": "3 colheres de sopa",
+    "peso_g": 30.0,
+    "kcal": 105.0,
+    "cho_g": 23.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão Alemão integral Wickbold®",
+    "medida": "½ unidade",
+    "peso_g": 50.0,
+    "kcal": 99.0,
+    "cho_g": 17.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão ciabatta",
+    "medida": "1 fatia grande",
+    "peso_g": 50.0,
+    "kcal": 125.0,
+    "cho_g": 24.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão com queijo quente",
+    "medida": "1 unidade média",
+    "peso_g": 85.0,
+    "kcal": 300.0,
+    "cho_g": 33.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de batata",
+    "medida": "1 unidade média",
+    "peso_g": 50.0,
+    "kcal": 137.0,
+    "cho_g": 29.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de centeio integral",
+    "medida": "1 pedaço médio",
+    "peso_g": 50.0,
+    "kcal": 116.0,
+    "cho_g": 23.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de forma de aveia (média)",
+    "medida": "1 fatia média",
+    "peso_g": 25.0,
+    "kcal": 59.0,
+    "cho_g": 11.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de forma Estar Bem Wickbold®",
+    "medida": "1 fatia média",
+    "peso_g": 20.0,
+    "kcal": 49.0,
+    "cho_g": 9.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de forma integral Grão Sabor Wickbold®",
+    "medida": "1 fatia grande",
+    "peso_g": 31.0,
+    "kcal": 83.0,
+    "cho_g": 13.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de forma light (média)",
+    "medida": "1 fatia média",
+    "peso_g": 25.0,
+    "kcal": 50.0,
+    "cho_g": 9.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de forma light 7 grãos Pullman®",
+    "medida": "1 fatia média",
+    "peso_g": 25.0,
+    "kcal": 52.0,
+    "cho_g": 7.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de grãos mistura integral Vitalin®",
+    "medida": "3 colheres de sopa",
+    "peso_g": 30.0,
+    "kcal": 101.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de leite",
+    "medida": "1 unidade",
+    "peso_g": 54.0,
+    "kcal": 149.0,
+    "cho_g": 30.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de mel com chocolate Pan®",
+    "medida": "1 unidade",
+    "peso_g": 15.0,
+    "kcal": 65.0,
+    "cho_g": 10.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de milho com 50% de farinha de trigo",
+    "medida": "1 fatia média",
+    "peso_g": 70.0,
+    "kcal": 204.0,
+    "cho_g": 42.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de passas (média)",
+    "medida": "1 unidade média",
+    "peso_g": 50.0,
+    "kcal": 136.0,
+    "cho_g": 26.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de queijo",
+    "medida": "1 unidade pequena",
+    "peso_g": 20.0,
+    "kcal": 87.0,
+    "cho_g": 9.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de queijo light Forno de Minas®",
+    "medida": "1 unidade média",
+    "peso_g": 27.0,
+    "kcal": 55.0,
+    "cho_g": 9.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão de sanduíche light Seven Boys®",
+    "medida": "1 fatia média",
+    "peso_g": 25.0,
+    "kcal": 60.0,
+    "cho_g": 12.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão francês",
+    "medida": "1 unidade",
+    "peso_g": 50.0,
+    "kcal": 135.0,
+    "cho_g": 28.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão francês integral",
+    "medida": "1 unidade",
+    "peso_g": 50.0,
+    "kcal": 127.0,
+    "cho_g": 25.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão sírio integral Pita Bread®",
+    "medida": "1 unidade média",
+    "peso_g": 58.0,
+    "kcal": 144.0,
+    "cho_g": 31.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Pão sovado",
+    "medida": "1 fatia média",
+    "peso_g": 50.0,
+    "kcal": 155.0,
+    "cho_g": 31.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Polvilho doce/azedo",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 20.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Quinoa grão",
+    "medida": "1 colher sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 88.0,
+    "cho_g": 16.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Rap integral Pullman®",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 114.0,
+    "cho_g": 18.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Ravióli de carne",
+    "medida": "1 escumadeira",
+    "peso_g": 50.0,
+    "kcal": 141.0,
+    "cho_g": 25.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Risoto simples",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 41.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Roll cake de chocolate",
+    "medida": "1 unidade",
+    "peso_g": 38.0,
+    "kcal": 143.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Salgadinho de soja Jasmine®",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 98.0,
+    "cho_g": 4.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Semolina cozida",
+    "medida": "1 pedaço médio",
+    "peso_g": 100.0,
+    "kcal": 370.0,
+    "cho_g": 49.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Snack de soja ervas finas Good Soy®",
+    "medida": "1 pacote comercial",
+    "peso_g": 25.0,
+    "kcal": 95.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Sucrilhos®",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 5.0,
+    "kcal": 19.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Tapioca com coco",
+    "medida": "1 unidade média",
+    "peso_g": 100.0,
+    "kcal": 298.0,
+    "cho_g": 49.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Tapioca pronta na manteiga",
+    "medida": "1 unidade",
+    "peso_g": 100.0,
+    "kcal": 174.0,
+    "cho_g": 43.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Torrada alho, água e sal Casa Victoriana®",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 25.0,
+    "cho_g": 5.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Torrada industrializada (média)",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 28.0,
+    "cho_g": 6.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Torradas 100% integral Slim Toast Fhom®",
+    "medida": "10 unidades",
+    "peso_g": 30.0,
+    "kcal": 108.0,
+    "cho_g": 20.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Torradas Slim Toast Fhom® (média)",
+    "medida": "21 unidades",
+    "peso_g": 30.0,
+    "kcal": 112.0,
+    "cho_g": 22.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Trigo (grão)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 70.0,
+    "cho_g": 19.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Veggie Chips de grão de bico",
+    "medida": "1 ½ xícara de chá",
+    "peso_g": 25.0,
+    "kcal": 95.0,
+    "cho_g": 16.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Wrap tradicional Wickbold®",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 80.0,
+    "cho_g": 15.0,
+    "grupo": "Pães, farinhas, cereais e tubérculos"
+  },
+  {
+    "nome": "Abóbora-d’água cozida (picada)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 36.0,
+    "kcal": 10.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Abobrinha italiana cozida (picada)",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 3.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Abobrinha paulista crua (picada)",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 6.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Agrião (picado)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 7.0,
+    "kcal": 2.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Aipo cru (picado)",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 10.0,
+    "kcal": 2.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Alcaparra",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 27.0,
+    "kcal": 10.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Alface crua (média)",
+    "medida": "1 prato de sobremesa",
+    "peso_g": 100.0,
+    "kcal": 3.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Alface roxa crua",
+    "medida": "1 folha média",
+    "peso_g": 10.0,
+    "kcal": 1.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Alho",
+    "medida": "2 dentes pequenos",
+    "peso_g": 10.0,
+    "kcal": 11.0,
+    "cho_g": 3.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Almeirão cru (picado)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 6.0,
+    "kcal": 1.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Aspargos (conserva)",
+    "medida": "1 unidade média",
+    "peso_g": 7.0,
+    "kcal": 2.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Azeitona verde",
+    "medida": "1 unidade",
+    "peso_g": 4.0,
+    "kcal": 12.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Berinjela frita",
+    "medida": "1 rodela média",
+    "peso_g": 13.0,
+    "kcal": 10.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Beterraba cozida (picada)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 9.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Brócolis cozido (picado)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 10.0,
+    "kcal": 4.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Broto de feijão cru",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 35.0,
+    "kcal": 16.0,
+    "cho_g": 8.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Cebolinha crua (picada)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 8.0,
+    "kcal": 2.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Cenoura crua (ralada)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 12.0,
+    "kcal": 4.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Chicória crua",
+    "medida": "1 xícara de chá",
+    "peso_g": 30.0,
+    "kcal": 3.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Chicória refogada",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 45.0,
+    "kcal": 39.0,
+    "cho_g": 3.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Chuchu cozido (picado)",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 15.0,
+    "kcal": 3.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Cogumelo (conserva)",
+    "medida": "1 colher de sopa",
+    "peso_g": 27.0,
+    "kcal": 5.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Cogumelo shiimeji cru",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 20.0,
+    "kcal": 6.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Cogumelo shiitake cozido",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 35.0,
+    "kcal": 21.0,
+    "cho_g": 5.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Couve de bruxelas cozida",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 7.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Couve-flor à milanesa",
+    "medida": "1 ramo médio",
+    "peso_g": 90.0,
+    "kcal": 136.0,
+    "cho_g": 11.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Couve-flor crua (picada)",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 12.0,
+    "kcal": 5.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Escarola refogada",
+    "medida": "1 colher de servir cheia",
+    "peso_g": 40.0,
+    "kcal": 13.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Espinafre refogado",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 27.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Guariroba",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 10.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Hortelã",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 10.0,
+    "kcal": 4.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Mostarda cozida (folha)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 45.0,
+    "kcal": 12.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Palmito (conserva)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 3.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Pepino cru (fatiado)",
+    "medida": "1 fatia pequena",
+    "peso_g": 3.0,
+    "kcal": 1.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Pequi refogado",
+    "medida": "4 unidades médias",
+    "peso_g": 70.0,
+    "kcal": 143.0,
+    "cho_g": 9.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Pinhão cozido",
+    "medida": "1 unidade média",
+    "peso_g": 10.0,
+    "kcal": 25.0,
+    "cho_g": 5.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Quiabo cozido",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 40.0,
+    "kcal": 15.0,
+    "cho_g": 3.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Repolho cozido",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 10.0,
+    "kcal": 2.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Rúcula crua",
+    "medida": "1 prato de sobremesa",
+    "peso_g": 100.0,
+    "kcal": 17.0,
+    "cho_g": 2.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Salada Agadir",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 167.0,
+    "cho_g": 3.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Salada ceasar Marietta®",
+    "medida": "1 porção grande",
+    "peso_g": 350.0,
+    "kcal": 538.0,
+    "cho_g": 27.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Salada de atum Marietta®",
+    "medida": "1 porção",
+    "peso_g": 350.0,
+    "kcal": 205.0,
+    "cho_g": 10.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Salada de legumes com maionese",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 35.0,
+    "kcal": 34.0,
+    "cho_g": 5.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Salada tropical (média)",
+    "medida": "1 porção",
+    "peso_g": 180.0,
+    "kcal": 75.0,
+    "cho_g": 15.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Salsa",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 5.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Seleta de legumes (média)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 30.0,
+    "kcal": 25.0,
+    "cho_g": 4.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Tomate",
+    "medida": "1 unidade média",
+    "peso_g": 70.0,
+    "kcal": 12.0,
+    "cho_g": 3.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Tomate (fatiado)",
+    "medida": "1 fatia média",
+    "peso_g": 15.0,
+    "kcal": 2.0,
+    "cho_g": 0.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Tomate cereja",
+    "medida": "4 unidades pequenas",
+    "peso_g": 24.0,
+    "kcal": 4.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Vagem (conserva)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 5.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Vagem crua",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 4.0,
+    "cho_g": 1.0,
+    "grupo": "Verduras e legumes"
+  },
+  {
+    "nome": "Abacate (picado)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 45.0,
+    "kcal": 79.0,
+    "cho_g": 3.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Abacaxi (polpa) congelada",
+    "medida": "1 saquinho",
+    "peso_g": 100.0,
+    "kcal": 31.0,
+    "cho_g": 8.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Açaí (polpa) com xarope de guaraná e glicose",
+    "medida": "1 pote médio",
+    "peso_g": 200.0,
+    "kcal": 220.0,
+    "cho_g": 43.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Açaí com xarope (suco)",
+    "medida": "1 copo duplo",
+    "peso_g": 240.0,
+    "kcal": 438.0,
+    "cho_g": 72.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Acerola",
+    "medida": "1 unidade pequena",
+    "peso_g": 12.0,
+    "kcal": 4.0,
+    "cho_g": 1.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Ameixa em calda",
+    "medida": "1 unidade média",
+    "peso_g": 7.0,
+    "kcal": 20.0,
+    "cho_g": 5.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Ameixa preta seca",
+    "medida": "1 unidade média",
+    "peso_g": 5.0,
+    "kcal": 12.0,
+    "cho_g": 3.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Amora (diversas)",
+    "medida": "1 unidade média",
+    "peso_g": 8.0,
+    "kcal": 5.0,
+    "cho_g": 1.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Banana à milanesa",
+    "medida": "1 unidade média",
+    "peso_g": 100.0,
+    "kcal": 185.0,
+    "cho_g": 24.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Banana-da-terra crua",
+    "medida": "1 unidade grande (sem casca)",
+    "peso_g": 100.0,
+    "kcal": 117.0,
+    "cho_g": 27.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Banana-nanica",
+    "medida": "1 unidade média (sem casca)",
+    "peso_g": 70.0,
+    "kcal": 64.0,
+    "cho_g": 17.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Cacau",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 74.0,
+    "cho_g": 19.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Cajá-manga",
+    "medida": "1 unidade grande",
+    "peso_g": 55.0,
+    "kcal": 38.0,
+    "cho_g": 9.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Caju (polpa) congelada",
+    "medida": "1 saquinho",
+    "peso_g": 100.0,
+    "kcal": 46.0,
+    "cho_g": 12.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Caqui",
+    "medida": "1 unidade média",
+    "peso_g": 110.0,
+    "kcal": 95.0,
+    "cho_g": 22.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Cereja (conserva)",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 8.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Ciriguela",
+    "medida": "1 unidade média",
+    "peso_g": 20.0,
+    "kcal": 15.0,
+    "cho_g": 4.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Coco fresco (massa)",
+    "medida": "1 pedaço médio",
+    "peso_g": 40.0,
+    "kcal": 142.0,
+    "cho_g": 6.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Coco ralado (industrializado)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 12.0,
+    "kcal": 72.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Cupuaçu creme",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 20.0,
+    "kcal": 135.0,
+    "cho_g": 5.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Figo fresco",
+    "medida": "1 unidade grande",
+    "peso_g": 55.0,
+    "kcal": 32.0,
+    "cho_g": 8.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Fruta-do-conde/Ata",
+    "medida": "1 unidade média",
+    "peso_g": 60.0,
+    "kcal": 53.0,
+    "cho_g": 13.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Frutas cristalizadas (industrializadas)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 15.0,
+    "kcal": 48.0,
+    "cho_g": 12.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Graviola",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 66.0,
+    "cho_g": 17.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Jabuticaba",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 2.0,
+    "cho_g": 1.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Jambo",
+    "medida": "1 unidade média",
+    "peso_g": 40.0,
+    "kcal": 22.0,
+    "cho_g": 5.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Kiwi",
+    "medida": "1 unidade média",
+    "peso_g": 76.0,
+    "kcal": 46.0,
+    "cho_g": 11.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Laranja (com bagaço)",
+    "medida": "1 unidade grande",
+    "peso_g": 180.0,
+    "kcal": 84.0,
+    "cho_g": 21.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Lima (laranja)",
+    "medida": "1 unidade média",
+    "peso_g": 90.0,
+    "kcal": 41.0,
+    "cho_g": 10.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Maçã",
+    "medida": "1 unidade pequena",
+    "peso_g": 80.0,
+    "kcal": 47.0,
+    "cho_g": 12.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Mamão-papaia",
+    "medida": "½ unidade pequena",
+    "peso_g": 160.0,
+    "kcal": 62.0,
+    "cho_g": 16.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Manga",
+    "medida": "1 unidade média",
+    "peso_g": 140.0,
+    "kcal": 91.0,
+    "cho_g": 22.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Maracujá",
+    "medida": "1 unidade média",
+    "peso_g": 45.0,
+    "kcal": 31.0,
+    "cho_g": 6.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Melão",
+    "medida": "1 fatia grande",
+    "peso_g": 115.0,
+    "kcal": 34.0,
+    "cho_g": 8.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Mexerica/Bergamota",
+    "medida": "1 unidade média",
+    "peso_g": 135.0,
+    "kcal": 50.0,
+    "cho_g": 13.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Morango",
+    "medida": "1 unidade grande",
+    "peso_g": 20.0,
+    "kcal": 6.0,
+    "cho_g": 1.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Nêspera",
+    "medida": "1 unidade grande",
+    "peso_g": 40.0,
+    "kcal": 20.0,
+    "cho_g": 4.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Pêssego",
+    "medida": "1 unidade média",
+    "peso_g": 60.0,
+    "kcal": 36.0,
+    "cho_g": 9.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Pinha",
+    "medida": "1 unidade pequena",
+    "peso_g": 60.0,
+    "kcal": 41.0,
+    "cho_g": 8.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Pitanga",
+    "medida": "1 unidade",
+    "peso_g": 15.0,
+    "kcal": 7.0,
+    "cho_g": 1.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Pitaya",
+    "medida": "1 unidade",
+    "peso_g": 200.0,
+    "kcal": 84.0,
+    "cho_g": 14.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Salada de frutas",
+    "medida": "1 copo pequeno cheio",
+    "peso_g": 150.0,
+    "kcal": 81.0,
+    "cho_g": 22.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Sapoti",
+    "medida": "1 unidade pequena",
+    "peso_g": 60.0,
+    "kcal": 53.0,
+    "cho_g": 16.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Tamarindo",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 12.0,
+    "kcal": 33.0,
+    "cho_g": 9.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Umbu",
+    "medida": "1 unidade média",
+    "peso_g": 22.0,
+    "kcal": 10.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Uva comum (média)",
+    "medida": "10 gomos médios",
+    "peso_g": 80.0,
+    "kcal": 60.0,
+    "cho_g": 10.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Uva roxa",
+    "medida": "1 cacho pequeno",
+    "peso_g": 100.0,
+    "kcal": 79.0,
+    "cho_g": 18.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "ementesFe",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 91.0,
+    "cho_g": 91.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Amêndoa",
+    "medida": "10 unidades",
+    "peso_g": 30.0,
+    "kcal": 130.0,
+    "cho_g": 10.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Amendoim japonês Yoki®",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 75.0,
+    "cho_g": 5.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Avelã",
+    "medida": "1 unidade",
+    "peso_g": 1.0,
+    "kcal": 6.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Caldo de feijão",
+    "medida": "1 concha média",
+    "peso_g": 130.0,
+    "kcal": 98.0,
+    "cho_g": 13.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Castanha-de-caju",
+    "medida": "10 unidades",
+    "peso_g": 30.0,
+    "kcal": 130.0,
+    "cho_g": 10.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Edamame",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 25.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Ervilha (creme)",
+    "medida": "1 concha média",
+    "peso_g": 130.0,
+    "kcal": 125.0,
+    "cho_g": 17.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Falafel (bolinho de grão de bico)",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 155.0,
+    "cho_g": 20.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Feijão comum cozido (50% caldo)",
+    "medida": "1 colher de sopa",
+    "peso_g": 17.0,
+    "kcal": 12.0,
+    "cho_g": 3.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Feijão-branco (cozido)",
+    "medida": "1 colher de sopa",
+    "peso_g": 31.0,
+    "kcal": 40.0,
+    "cho_g": 8.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Grão-de-bico cozido (drenado)",
+    "medida": "1 colher de sopa",
+    "peso_g": 22.0,
+    "kcal": 25.0,
+    "cho_g": 5.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Homus",
+    "medida": "1 colher se sopa cheia",
+    "peso_g": 30.0,
+    "kcal": 94.0,
+    "cho_g": 14.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Linhaça (semente)",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 67.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Nozes",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 35.0,
+    "cho_g": 1.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Pistache",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 90.0,
+    "cho_g": 4.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Proteina texturizada de soja Jasmile®",
+    "medida": "½ xícara de chá",
+    "peso_g": 50.0,
+    "kcal": 144.0,
+    "cho_g": 10.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Semente de chia",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 80.0,
+    "cho_g": 7.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Soja cozida (grão)",
+    "medida": "1 colher de sopa",
+    "peso_g": 18.0,
+    "kcal": 22.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Soja (hambúrguer)",
+    "medida": "1 unidade",
+    "peso_g": 50.0,
+    "kcal": 36.0,
+    "cho_g": 4.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Tempeh",
+    "medida": "1 fatia",
+    "peso_g": 20.0,
+    "kcal": 40.0,
+    "cho_g": 2.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Tremoço (conserva)",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 24.0,
+    "cho_g": 3.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "nesGordur ,SENRAC TNEMILA",
+    "medida": "1 unidade pequena",
+    "peso_g": 30.0,
+    "kcal": 82.0,
+    "cho_g": 4.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Almôndega de frango crua",
+    "medida": "1 unidade pequena",
+    "peso_g": 45.0,
+    "kcal": 90.0,
+    "cho_g": 3.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Amaranto cru",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 91.0,
+    "cho_g": 16.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Atum em óleo (drenado)",
+    "medida": "1 lata",
+    "peso_g": 120.0,
+    "kcal": 203.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Azeite de dendê",
+    "medida": "1 colher de sopa",
+    "peso_g": 8.0,
+    "kcal": 72.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Bacalhau dessalgado cru",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 127.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Bacon Baked Potato®",
+    "medida": "1 concha",
+    "peso_g": 20.0,
+    "kcal": 92.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Bife à milanesa",
+    "medida": "1 unidade",
+    "peso_g": 100.0,
+    "kcal": 283.0,
+    "cho_g": 11.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Bife de boi grelhado",
+    "medida": "1 unidade média",
+    "peso_g": 100.0,
+    "kcal": 225.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Bife de fígado grelhado",
+    "medida": "1 unidade média",
+    "peso_g": 100.0,
+    "kcal": 225.0,
+    "cho_g": 4.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Blanquet de peru",
+    "medida": "1 fatia pequena",
+    "peso_g": 10.0,
+    "kcal": 9.0,
+    "cho_g": 0.0,
+    "grupo": "Frutas"
+  },
+  {
+    "nome": "Carne de porco lombo assado",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 210.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Carne vegetal (soja)",
+    "medida": "1 pedaço",
+    "peso_g": 50.0,
+    "kcal": 36.0,
+    "cho_g": 4.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Carpaccio de Salmão Damm®",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 142.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Chandelle® chocolate",
+    "medida": "1 potinho",
+    "peso_g": 90.0,
+    "kcal": 132.0,
+    "cho_g": 20.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Clara de ovo cozida",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 15.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Cogumelo shimeji cru",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 20.0,
+    "kcal": 6.0,
+    "cho_g": 1.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Coração de boi cozido",
+    "medida": "1 fatia",
+    "peso_g": 100.0,
+    "kcal": 147.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Cordeiro, filé assado",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 15.0,
+    "cho_g": 1.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Creme de leite light",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 25.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Dobradinha",
+    "medida": "1 colher de sopa",
+    "peso_g": 35.0,
+    "kcal": 39.0,
+    "cho_g": 3.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Feijão-branco (cozido)",
+    "medida": "1 pedaço",
+    "peso_g": 100.0,
+    "kcal": 179.0,
+    "cho_g": 3.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Filé de boi acebolado",
+    "medida": "1 pedaço",
+    "peso_g": 90.0,
+    "kcal": 175.0,
+    "cho_g": 3.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Frango assado asa com pele",
+    "medida": "1 unidade média",
+    "peso_g": 40.0,
+    "kcal": 49.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Frango assado sobrecoxa com pele",
+    "medida": "1 unidade média",
+    "peso_g": 65.0,
+    "kcal": 79.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Frango xadrez",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 150.0,
+    "cho_g": 6.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Frango, coxa cozida sem pele",
+    "medida": "1 unidade",
+    "peso_g": 100.0,
+    "kcal": 167.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Frango, peito sem pele cozido, assado ou grelhado",
+    "medida": "1 unidade grande",
+    "peso_g": 100.0,
+    "kcal": 160.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Gema de ovo cozida",
+    "medida": "1 unidade",
+    "peso_g": 15.0,
+    "kcal": 51.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Grão-de-bico cozido (drenado)",
+    "medida": "5 colheres de sopa",
+    "peso_g": 110.0,
+    "kcal": 115.0,
+    "cho_g": 21.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Hambúrguer bovino grelhado (média)",
+    "medida": "1 unidade",
+    "peso_g": 80.0,
+    "kcal": 150.0,
+    "cho_g": 3.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Hamburguer vegetal (grão de bico)",
+    "medida": "1 unidade",
+    "peso_g": 70.0,
+    "kcal": 125.0,
+    "cho_g": 10.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Joelho de porco",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 280.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Língua de boi cozida",
+    "medida": "1 fatia média",
+    "peso_g": 30.0,
+    "kcal": 71.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Linguiça de frango",
+    "medida": "1 gomo",
+    "peso_g": 60.0,
+    "kcal": 142.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Lula cozida",
+    "medida": "1 unidade média",
+    "peso_g": 80.0,
+    "kcal": 74.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Maionese light",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 12.0,
+    "kcal": 20.0,
+    "cho_g": 1.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Manteiga light",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 44.0,
+    "cho_g": 1.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Margarina light",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 34.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Mexilhão cozido",
+    "medida": "1 xícara de chá",
+    "peso_g": 100.0,
+    "kcal": 77.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Mortadela",
+    "medida": "1 fatia média",
+    "peso_g": 20.0,
+    "kcal": 53.0,
+    "cho_g": 3.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Nuggets®",
+    "medida": "1 unidade",
+    "peso_g": 26.0,
+    "kcal": 64.0,
+    "cho_g": 4.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Óleo de canola",
+    "medida": "1 colher de sobremesa",
+    "peso_g": 5.0,
+    "kcal": 45.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Óleo de girassol",
+    "medida": "1 colher de sobremesa",
+    "peso_g": 5.0,
+    "kcal": 45.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Óleo de milho",
+    "medida": "1 colher de sobremesa",
+    "peso_g": 5.0,
+    "kcal": 45.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Óleo de soja",
+    "medida": "1 colher de sobremesa",
+    "peso_g": 5.0,
+    "kcal": 45.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Omelete simples",
+    "medida": "1 unidade (1 ovo)",
+    "peso_g": 65.0,
+    "kcal": 111.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Ovo de codorna",
+    "medida": "1 unidade",
+    "peso_g": 10.0,
+    "kcal": 16.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Ovo mexido",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 35.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Patê (média)",
+    "medida": "1 colher de chá",
+    "peso_g": 8.0,
+    "kcal": 17.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Peixe ensopado",
+    "medida": "1 porção",
+    "peso_g": 120.0,
+    "kcal": 156.0,
+    "cho_g": 2.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Peixe grelhado",
+    "medida": "1 posta ou 1 filé",
+    "peso_g": 100.0,
+    "kcal": 180.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Peixe, filé à milanesa",
+    "medida": "1 unidade média",
+    "peso_g": 115.0,
+    "kcal": 305.0,
+    "cho_g": 17.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Peru carne branca assada",
+    "medida": "1 pedaço",
+    "peso_g": 100.0,
+    "kcal": 158.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Presunto de porco",
+    "medida": "1 fatia",
+    "peso_g": 20.0,
+    "kcal": 36.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Queijo cheddar cremoso",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 48.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Queijo minas frescal",
+    "medida": "1 fatia média",
+    "peso_g": 30.0,
+    "kcal": 72.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Queijo muçarela",
+    "medida": "1 fatia média",
+    "peso_g": 20.0,
+    "kcal": 64.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Queijo prato",
+    "medida": "1 fatia",
+    "peso_g": 20.0,
+    "kcal": 71.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Quinoa (grão)",
+    "medida": "1 colher sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 88.0,
+    "cho_g": 16.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Requeijão cremoso",
+    "medida": "1 colher de sobremesa",
+    "peso_g": 15.0,
+    "kcal": 40.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Rosbife",
+    "medida": "1 pedaço",
+    "peso_g": 100.0,
+    "kcal": 120.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Salame tipo italiano",
+    "medida": "1 fatia",
+    "peso_g": 5.0,
+    "kcal": 20.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Salsicha comum",
+    "medida": "1 unidade",
+    "peso_g": 50.0,
+    "kcal": 118.0,
+    "cho_g": 2.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Salsicha de peru Vita Light Sadia®",
+    "medida": "1 unidade média",
+    "peso_g": 35.0,
+    "kcal": 57.0,
+    "cho_g": 2.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Sardinha assada",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 164.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Siri",
+    "medida": "1 colher de servir rasa",
+    "peso_g": 40.0,
+    "kcal": 42.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Tainha",
+    "medida": "1 posta pequena",
+    "peso_g": 100.0,
+    "kcal": 204.0,
+    "cho_g": 0.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Tofu",
+    "medida": "1 pedaço",
+    "peso_g": 30.0,
+    "kcal": 20.0,
+    "cho_g": 1.0,
+    "grupo": "Feijões, leguminosas, oleaginosas e sementes"
+  },
+  {
+    "nome": "Tremoço (conserva)",
+    "medida": "1 garrafinha",
+    "peso_g": 180.0,
+    "kcal": 157.0,
+    "cho_g": 157.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Iogurte de frutas (média)",
+    "medida": "1 potinho",
+    "peso_g": 100.0,
+    "kcal": 90.0,
+    "cho_g": 17.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Iogurte Grego tradicional Nestlé®",
+    "medida": "1 potinho",
+    "peso_g": 100.0,
+    "kcal": 113.0,
+    "cho_g": 15.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Iogurte integral c/ mel Nestlé®",
+    "medida": "1 potinho",
+    "peso_g": 170.0,
+    "kcal": 191.0,
+    "cho_g": 30.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Iogurte LACFREE Verde Campo®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 65.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Iogurte natural desnatado",
+    "medida": "1 copo",
+    "peso_g": 170.0,
+    "kcal": 78.0,
+    "cho_g": 11.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Iogurte Natural sem adoçante LACFREE Verde Campo®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 70.0,
+    "cho_g": 10.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite condensado",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 49.0,
+    "cho_g": 8.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite condensado diet",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 41.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de arroz Risovita®",
+    "medida": "½ copo",
+    "peso_g": 100.0,
+    "kcal": 66.0,
+    "cho_g": 14.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de coco light Sococo®",
+    "medida": "1 garrafinha",
+    "peso_g": 200.0,
+    "kcal": 250.0,
+    "cho_g": 6.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de soja Ades® Original",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 82.0,
+    "cho_g": 8.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de soja em pó",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 47.0,
+    "cho_g": 6.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de soja em pó Soymilke® sabores",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 45.0,
+    "cho_g": 6.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de vaca integral",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 118.0,
+    "cho_g": 10.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite de vaca semidesnatado",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 83.0,
+    "cho_g": 10.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite desnatado Itambé Pro®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 89.0,
+    "cho_g": 9.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite em pó integral",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 50.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite materno",
+    "medida": "½ copo",
+    "peso_g": 100.0,
+    "kcal": 67.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Leite Sollys®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 89.0,
+    "cho_g": 11.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "McDonald’s Iogurte Parfait®",
+    "medida": "1 porção",
+    "peso_g": 300.0,
+    "kcal": 315.0,
+    "cho_g": 63.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Nan 2 Nestlé®",
+    "medida": "1 medida",
+    "peso_g": 4.0,
+    "kcal": 19.0,
+    "cho_g": 2.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Queijo cheddar cremoso Itambé®",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 82.0,
+    "cho_g": 0.6,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Queijo cremoso Catupiry®",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 79.0,
+    "cho_g": 1.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Queijo minas frescal light",
+    "medida": "1 fatia média",
+    "peso_g": 30.0,
+    "kcal": 46.0,
+    "cho_g": 0.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Queijo muçarela de búfala",
+    "medida": "1 fatia",
+    "peso_g": 30.0,
+    "kcal": 93.0,
+    "cho_g": 1.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Queijo parmesão ralado",
+    "medida": "1 colher de sopa",
+    "peso_g": 5.0,
+    "kcal": 23.0,
+    "cho_g": 0.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Queijo ricota",
+    "medida": "1 fatia média",
+    "peso_g": 35.0,
+    "kcal": 48.0,
+    "cho_g": 1.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Requeijão cremoso LACFREE Verde Campo®",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 75.0,
+    "cho_g": 1.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Yakult®",
+    "medida": "1 potinho",
+    "peso_g": 80.0,
+    "kcal": 50.0,
+    "cho_g": 11.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "DietDocesD",
+    "medida": "1 tablete",
+    "peso_g": 25.0,
+    "kcal": 113.0,
+    "cho_g": 113.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Abacaxi em calda",
+    "medida": "1 fatia média",
+    "peso_g": 64.0,
+    "kcal": 78.0,
+    "cho_g": 19.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Abóbora com coco diet Flormel® tablete",
+    "medida": "1 tablete",
+    "peso_g": 25.0,
+    "kcal": 102.0,
+    "cho_g": 16.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Achocolatado Chocoki®",
+    "medida": "1 colher de sopa",
+    "peso_g": 8.0,
+    "kcal": 13.0,
+    "cho_g": 5.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Achocolatado diet Linea®",
+    "medida": "1 colher de sopa",
+    "peso_g": 12.0,
+    "kcal": 30.0,
+    "cho_g": 5.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Achocolatado Nescau®",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 37.0,
+    "cho_g": 9.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Achocolatado light Taeq®",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 34.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Achocolatado light Toddy®",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 37.0,
+    "cho_g": 8.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Açúcar branco refinado",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 30.0,
+    "kcal": 116.0,
+    "cho_g": 30.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Açúcar mascavo",
+    "medida": "1 colher de sopa rasa",
+    "peso_g": 11.0,
+    "kcal": 41.0,
+    "cho_g": 11.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Alfajor Cacau Show®",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 120.0,
+    "cho_g": 23.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Alfajor recheado com doce de leite",
+    "medida": "1 unidade",
+    "peso_g": 25.0,
+    "kcal": 98.0,
+    "cho_g": 15.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Algodão-doce Mavalério®",
+    "medida": "1 unidade",
+    "peso_g": 35.0,
+    "kcal": 140.0,
+    "cho_g": 35.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Ameixa com coco diet Flormel®",
+    "medida": "1 tablete",
+    "peso_g": 25.0,
+    "kcal": 86.0,
+    "cho_g": 17.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Amendoim caramelizado",
+    "medida": "1 pacote pequeno",
+    "peso_g": 20.0,
+    "kcal": 95.0,
+    "cho_g": 14.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Arroz-doce diet",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 41.0,
+    "cho_g": 6.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala “de latinha” diet Gold®",
+    "medida": "1 bala",
+    "peso_g": 2.0,
+    "kcal": 0.0,
+    "cho_g": 2.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala Dadinho®",
+    "medida": "1 unidade",
+    "peso_g": 6.0,
+    "kcal": 31.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala de caramelo (média)",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 20.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala de jenipapo",
+    "medida": "1 unidade",
+    "peso_g": 9.0,
+    "kcal": 25.0,
+    "cho_g": 6.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala Delícia",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 20.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala gelatina Fini® (ursinhos)",
+    "medida": "1 unidade",
+    "peso_g": 2.0,
+    "kcal": 8.0,
+    "cho_g": 2.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala Icekiss®",
+    "medida": "1 unidade",
+    "peso_g": 4.0,
+    "kcal": 16.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala Mentex®",
+    "medida": "1 unidade",
+    "peso_g": 3.0,
+    "kcal": 11.0,
+    "cho_g": 3.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala Marshmallow Fini®",
+    "medida": "1 unidade",
+    "peso_g": 6.0,
+    "kcal": 19.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bala Yogurte Dori®",
+    "medida": "1 unidade",
+    "peso_g": 5.0,
+    "kcal": 19.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bananada",
+    "medida": "1 unidade média",
+    "peso_g": 40.0,
+    "kcal": 115.0,
+    "cho_g": 27.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bananinha Paraibuna®",
+    "medida": "1 tablete",
+    "peso_g": 36.0,
+    "kcal": 114.0,
+    "cho_g": 27.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Beijinho",
+    "medida": "1 unidade pequena",
+    "peso_g": 10.0,
+    "kcal": 42.0,
+    "cho_g": 5.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Beijinho diet",
+    "medida": "1 unidade pequena",
+    "peso_g": 6.0,
+    "kcal": 20.0,
+    "cho_g": 2.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bem casado",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 160.0,
+    "cho_g": 25.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bolo de pote Casa de Bolos®",
+    "medida": "1 fatia",
+    "peso_g": 60.0,
+    "kcal": 166.0,
+    "cho_g": 22.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bolo Petit Gateau light",
+    "medida": "1 unidade media",
+    "peso_g": 94.0,
+    "kcal": 344.0,
+    "cho_g": 21.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Alpino®",
+    "medida": "1 unidade",
+    "peso_g": 13.0,
+    "kcal": 70.0,
+    "cho_g": 8.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Chokito®",
+    "medida": "1 unidade",
+    "peso_g": 32.0,
+    "kcal": 140.0,
+    "cho_g": 25.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom de Chocolate Belga Avelâ Haoma®",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 90.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom diet recheado Cacau Show®",
+    "medida": "1 unidade",
+    "peso_g": 13.0,
+    "kcal": 58.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Garoto Caribe® (banana)",
+    "medida": "1 unidade",
+    "peso_g": 17.0,
+    "kcal": 65.0,
+    "cho_g": 12.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Garoto Opereta®",
+    "medida": "1 unidade",
+    "peso_g": 12.0,
+    "kcal": 67.0,
+    "cho_g": 8.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Lacta Laka®",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 108.0,
+    "cho_g": 12.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Nestlé Galak®",
+    "medida": "1 pedaço",
+    "peso_g": 25.0,
+    "kcal": 138.0,
+    "cho_g": 14.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Nestlé Prestígio®",
+    "medida": "1 unidade",
+    "peso_g": 33.0,
+    "kcal": 154.0,
+    "cho_g": 21.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Bombom Sonho de Valsa®",
+    "medida": "1 unidade",
+    "peso_g": 22.0,
+    "kcal": 115.0,
+    "cho_g": 13.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Brigadeiro",
+    "medida": "1 unidade pequena",
+    "peso_g": 10.0,
+    "kcal": 36.0,
+    "cho_g": 6.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Brigadeiro diet de colher Hué®",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 86.0,
+    "cho_g": 5.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Cacau em pó (média)",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 31.0,
+    "cho_g": 5.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Calda de caramelo",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 31.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Calda de morango",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 25.0,
+    "cho_g": 7.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Canjica doce diet",
+    "medida": "1 concha média",
+    "peso_g": 120.0,
+    "kcal": 86.0,
+    "cho_g": 13.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Caramelo diet Hué®",
+    "medida": "1 unidade",
+    "peso_g": 6.0,
+    "kcal": 23.0,
+    "cho_g": 4.0,
+    "grupo": "Carnes, gorduras e proteínas"
+  },
+  {
+    "nome": "Doce de leite com ameixa diet Flormel®",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 52.0,
+    "cho_g": 8.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Doce de leite com chocolate",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 67.0,
+    "cho_g": 11.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Doce de leite com coco diet Flormel®",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 66.0,
+    "cho_g": 9.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Doce de leite diet (média)",
+    "medida": "1 colher de sopa",
+    "peso_g": 40.0,
+    "kcal": 122.0,
+    "cho_g": 16.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Doce de mamão diet",
+    "medida": "1 colher de sopa",
+    "peso_g": 40.0,
+    "kcal": 30.0,
+    "cho_g": 11.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Farinha láctea com aveia Nestlé®",
+    "medida": "1 colher de sopa",
+    "peso_g": 8.0,
+    "kcal": 30.0,
+    "cho_g": 5.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Figo cristalizado",
+    "medida": "1 unidade média",
+    "peso_g": 30.0,
+    "kcal": 86.0,
+    "cho_g": 22.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Flan baunilha",
+    "medida": "1 potinho",
+    "peso_g": 100.0,
+    "kcal": 93.0,
+    "cho_g": 15.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Frutas cristalizadas (média)",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 115.0,
+    "cho_g": 16.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Gelatina diet (média)",
+    "medida": "1 potinho",
+    "peso_g": 100.0,
+    "kcal": 9.0,
+    "cho_g": 0.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Geleia de amora",
+    "medida": "1 colher de sopa",
+    "peso_g": 40.0,
+    "kcal": 93.0,
+    "cho_g": 23.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Geleia de framboesa",
+    "medida": "1 colher de sopa",
+    "peso_g": 34.0,
+    "kcal": 97.0,
+    "cho_g": 24.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Geleia de frutas diet (média)",
+    "medida": "1 colher de sopa",
+    "peso_g": 25.0,
+    "kcal": 25.0,
+    "cho_g": 8.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Geleia de mocotó",
+    "medida": "1 colher de sopa",
+    "peso_g": 40.0,
+    "kcal": 64.0,
+    "cho_g": 12.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Goiabada",
+    "medida": "1 fatia pequena",
+    "peso_g": 40.0,
+    "kcal": 109.0,
+    "cho_g": 27.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Goiabada diet Flormel®",
+    "medida": "1 tablete",
+    "peso_g": 25.0,
+    "kcal": 79.0,
+    "cho_g": 19.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "M&M’s amendoim®",
+    "medida": "1 embalagem pequena",
+    "peso_g": 49.0,
+    "kcal": 250.0,
+    "cho_g": 30.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "M&M’s chocolate® (mini)",
+    "medida": "1 mini tubo",
+    "peso_g": 30.0,
+    "kcal": 150.0,
+    "cho_g": 21.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Manjar pronto Royal®",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 109.0,
+    "cho_g": 20.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Marmelada",
+    "medida": "1 fatia pequena",
+    "peso_g": 40.0,
+    "kcal": 100.0,
+    "cho_g": 26.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Marshmallow",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 40.0,
+    "cho_g": 9.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mc Colosso®",
+    "medida": "1 unidade",
+    "peso_g": 137.0,
+    "kcal": 274.0,
+    "cho_g": 47.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mc Sundae chocolate®",
+    "medida": "1 unidade",
+    "peso_g": 151.0,
+    "kcal": 279.0,
+    "cho_g": 45.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mc Top Sundae chocolate®",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 475.0,
+    "cho_g": 65.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mc Torta de maçã®",
+    "medida": "1 unidade",
+    "peso_g": 84.0,
+    "kcal": 252.0,
+    "cho_g": 28.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "McShake Kopenhagen®",
+    "medida": "1 copo pequeno",
+    "peso_g": 300.0,
+    "kcal": 502.0,
+    "cho_g": 73.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mel",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 47.0,
+    "cho_g": 12.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Merengue",
+    "medida": "1 colher de sopa",
+    "peso_g": 25.0,
+    "kcal": 95.0,
+    "cho_g": 23.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Milk shake clássico de chocolate (Bob’s®)",
+    "medida": "1 copo grande",
+    "peso_g": 700.0,
+    "kcal": 846.0,
+    "cho_g": 177.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Milk shake crocante (Burguer King®)",
+    "medida": "1 copo pequeno",
+    "peso_g": 300.0,
+    "kcal": 500.0,
+    "cho_g": 96.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Milk shake crocante de ovomaltine (Bob’s®)",
+    "medida": "1 copo grande",
+    "peso_g": 700.0,
+    "kcal": 852.0,
+    "cho_g": 157.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Milk shake de chocolate",
+    "medida": "1 copo",
+    "peso_g": 290.0,
+    "kcal": 350.0,
+    "cho_g": 61.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Milk shake de morango (Burguer King®)",
+    "medida": "1 copo pequeno",
+    "peso_g": 300.0,
+    "kcal": 371.0,
+    "cho_g": 70.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mousse de chocolate",
+    "medida": "1 colher de sopa",
+    "peso_g": 25.0,
+    "kcal": 79.0,
+    "cho_g": 8.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Nutella®",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 106.0,
+    "cho_g": 11.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Paçoca diet Airon®",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 79.0,
+    "cho_g": 7.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Paçoquinha zero Hué®",
+    "medida": "1 unidade",
+    "peso_g": 25.0,
+    "kcal": 129.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pamonha doce",
+    "medida": "1 unidade pequena",
+    "peso_g": 130.0,
+    "kcal": 335.0,
+    "cho_g": 47.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pavê de chocolate",
+    "medida": "1 colher de sopa",
+    "peso_g": 35.0,
+    "kcal": 63.0,
+    "cho_g": 7.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pé-de-moleque",
+    "medida": "1 pedaço pequeno",
+    "peso_g": 17.0,
+    "kcal": 88.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pé-de-moleque diet Flormel®",
+    "medida": "1 tablete",
+    "peso_g": 25.0,
+    "kcal": 115.0,
+    "cho_g": 8.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pêssego enlatado em calda diet",
+    "medida": "1 metade",
+    "peso_g": 47.0,
+    "kcal": 11.0,
+    "cho_g": 2.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Picolé Chokito®",
+    "medida": "1 unidade",
+    "peso_g": 61.0,
+    "kcal": 232.0,
+    "cho_g": 27.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Picolé de fruta Kibon®",
+    "medida": "1 unidade",
+    "peso_g": 63.0,
+    "kcal": 66.0,
+    "cho_g": 16.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Picolé Mega clássico Nestlé®",
+    "medida": "1 unidade",
+    "peso_g": 77.0,
+    "kcal": 238.0,
+    "cho_g": 22.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Picolé Molico frutas amarelas zero Nestlé®",
+    "medida": "1 unidade",
+    "peso_g": 66.0,
+    "kcal": 50.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Picolé Tablito®",
+    "medida": "1 unidade",
+    "peso_g": 63.0,
+    "kcal": 231.0,
+    "cho_g": 17.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pipoca doce",
+    "medida": "1 saco médio",
+    "peso_g": 20.0,
+    "kcal": 95.0,
+    "cho_g": 20.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pirulito comum",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 74.0,
+    "cho_g": 19.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pirulito diet Well® (sabor morango)",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 19.0,
+    "cho_g": 8.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pudim de Baunilha Dr.Oetker ®",
+    "medida": "1 colher de sopa",
+    "peso_g": 11.0,
+    "kcal": 41.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Pudim leite condensado",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 50.0,
+    "kcal": 108.0,
+    "cho_g": 17.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Queijadinha de coco",
+    "medida": "1 unidade média",
+    "peso_g": 35.0,
+    "kcal": 72.0,
+    "cho_g": 9.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Rabanada",
+    "medida": "1 unidade média",
+    "peso_g": 60.0,
+    "kcal": 249.0,
+    "cho_g": 48.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Sagu em vinho",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 29.0,
+    "cho_g": 6.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Sorvete diet (média)",
+    "medida": "1 bola média",
+    "peso_g": 60.0,
+    "kcal": 62.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Sorvete Molico napolitano diet Nestlé®",
+    "medida": "1 bola média",
+    "peso_g": 60.0,
+    "kcal": 60.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Strudel de banana",
+    "medida": "1 fatia média",
+    "peso_g": 100.0,
+    "kcal": 309.0,
+    "cho_g": 56.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Sundae Kibon®",
+    "medida": "1 unidade",
+    "peso_g": 145.0,
+    "kcal": 266.0,
+    "cho_g": 41.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Suspiro diet (Merenguinho®)",
+    "medida": "1 unidade",
+    "peso_g": 2.0,
+    "kcal": 2.0,
+    "cho_g": 1.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Torta de limão",
+    "medida": "1 fatia pequena",
+    "peso_g": 90.0,
+    "kcal": 237.0,
+    "cho_g": 34.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Torta holandesa",
+    "medida": "1 fatia pequena",
+    "peso_g": 60.0,
+    "kcal": 181.0,
+    "cho_g": 22.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Xylitol",
+    "medida": "1 colher de chá",
+    "peso_g": 3.0,
+    "kcal": 8.0,
+    "cho_g": 3.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Yogoberry diet",
+    "medida": "1 porção (1 bola grande)",
+    "peso_g": 100.0,
+    "kcal": 60.0,
+    "cho_g": 7.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Achocolatado diet Gold®",
+    "medida": "1 colher de sopa",
+    "peso_g": 5.0,
+    "kcal": 16.0,
+    "cho_g": 3.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Achocolatado light Toddy®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 44.0,
+    "cho_g": 44.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Água de coco Do Bem®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 43.0,
+    "cho_g": 11.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Água de coco verde",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 36.0,
+    "cho_g": 8.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Água tônica zero Antarctica®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 0.0,
+    "cho_g": 0.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Batida de fruta com com leite condensado",
+    "medida": "1 taça",
+    "peso_g": 100.0,
+    "kcal": 256.0,
+    "cho_g": 26.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Big Apple com refrigerante zero",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 125.0,
+    "cho_g": 10.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Café com açúcar",
+    "medida": "1 xícara de chá",
+    "peso_g": 200.0,
+    "kcal": 80.0,
+    "cho_g": 20.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Café com leite meio a meio (sem açúcar)",
+    "medida": "1 xícara de chá/ 1 copo",
+    "peso_g": 200.0,
+    "kcal": 88.0,
+    "cho_g": 7.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Café solúvel (pó)",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 4.0,
+    "kcal": 6.0,
+    "cho_g": 1.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Caipirinha (sem açúcar)",
+    "medida": "1 dose",
+    "peso_g": 200.0,
+    "kcal": 85.0,
+    "cho_g": 21.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Cappuccino diet em pó (média)",
+    "medida": "2 colheres de sopa",
+    "peso_g": 14.0,
+    "kcal": 64.0,
+    "cho_g": 6.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Cappuccino em pó tradicional (média)",
+    "medida": "2 colheres de sopa",
+    "peso_g": 20.0,
+    "kcal": 81.0,
+    "cho_g": 15.0,
+    "grupo": "Leite e derivados"
+  },
+  {
+    "nome": "Mojito",
+    "medida": "1 copo duplo",
+    "peso_g": 240.0,
+    "kcal": 217.0,
+    "cho_g": 25.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Novomilk® chocolate em pó",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 64.0,
+    "cho_g": 10.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Quentão",
+    "medida": "½ copo",
+    "peso_g": 100.0,
+    "kcal": 294.0,
+    "cho_g": 34.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Refresco diet Clight®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 5.0,
+    "cho_g": 0.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Refrigerante diet (média)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 1.0,
+    "cho_g": 0.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Refrigerante Schweppes Citrus®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 93.0,
+    "cho_g": 24.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Rum",
+    "medida": "1 dose",
+    "peso_g": 50.0,
+    "kcal": 108.0,
+    "cho_g": 0.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Smirnoff ice",
+    "medida": "1 garrafinha",
+    "peso_g": 275.0,
+    "kcal": 190.0,
+    "cho_g": 47.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco light Ades®",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 32.0,
+    "cho_g": 7.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco artificial diet",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 3.0,
+    "cho_g": 0.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de abacaxi com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 108.0,
+    "cho_g": 26.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de açaí com xarope",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 365.0,
+    "cho_g": 60.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de acerola com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 52.0,
+    "cho_g": 12.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de acerola sem açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 25.0,
+    "cho_g": 5.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de caju concentrado (diluído em água)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 30.0,
+    "cho_g": 7.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de graviola sem açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 35.0,
+    "cho_g": 7.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de groselia",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 83.0,
+    "cho_g": 20.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de laranja sem açucar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 74.0,
+    "cho_g": 17.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de maçã com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 100.0,
+    "cho_g": 22.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de mamão com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 76.0,
+    "cho_g": 18.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de manga com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 80.0,
+    "cho_g": 19.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de maracujá com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 58.0,
+    "cho_g": 14.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de maracujá (polpa congelada)",
+    "medida": "1 copo",
+    "peso_g": 100.0,
+    "kcal": 39.0,
+    "cho_g": 10.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de melão com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 68.0,
+    "cho_g": 16.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de morango com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 80.0,
+    "cho_g": 18.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de pêssego sem açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 32.0,
+    "cho_g": 7.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de tomate com açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 121.0,
+    "cho_g": 26.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de tomate sem açúcar",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 48.0,
+    "cho_g": 9.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de uva engarrafado",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 126.0,
+    "cho_g": 30.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de uva Kapo®",
+    "medida": "1 unidade",
+    "peso_g": 200.0,
+    "kcal": 106.0,
+    "cho_g": 23.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco Del Valle® (média)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 112.0,
+    "cho_g": 28.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco light Disfrut® (média)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 32.0,
+    "cho_g": 8.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco Mais® (média)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 105.0,
+    "cho_g": 26.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco Mc Laranja®",
+    "medida": "1 copo pequeno",
+    "peso_g": 300.0,
+    "kcal": 160.0,
+    "cho_g": 34.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Suco de uva light Tial® (média)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 58.0,
+    "cho_g": 15.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Toddynho® chocolate",
+    "medida": "1 unidade",
+    "peso_g": 200.0,
+    "kcal": 185.0,
+    "cho_g": 32.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Toddynho® chocolate light",
+    "medida": "1 unidade",
+    "peso_g": 200.0,
+    "kcal": 122.0,
+    "cho_g": 20.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Vinho branco suave",
+    "medida": "1 taça",
+    "peso_g": 80.0,
+    "kcal": 70.0,
+    "cho_g": 10.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Vinho tinto seco",
+    "medida": "1 taça",
+    "peso_g": 80.0,
+    "kcal": 58.0,
+    "cho_g": 1.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Vitamina de leite/fruta (sem açúcar)",
+    "medida": "1 copo",
+    "peso_g": 200.0,
+    "kcal": 105.0,
+    "cho_g": 15.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Uísque",
+    "medida": "1 dose",
+    "peso_g": 50.0,
+    "kcal": 120.0,
+    "cho_g": 0.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Sanduíches",
+    "medida": "1 unidade pequena",
+    "peso_g": 271.0,
+    "kcal": 470.0,
+    "cho_g": 470.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Australiano Artesanal (Bob’s®)",
+    "medida": "1 unidade pequena",
+    "peso_g": 340.0,
+    "kcal": 758.0,
+    "cho_g": 47.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bacon Smokehouse (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 978.0,
+    "cho_g": 75.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Batata Frita grande (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 142.0,
+    "kcal": 389.0,
+    "cho_g": 46.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Batata Frita pequena (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 74.0,
+    "kcal": 203.0,
+    "cho_g": 24.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Batata Furiosa média (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 184.0,
+    "kcal": 604.0,
+    "cho_g": 61.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Batata Suprema média (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 221.0,
+    "kcal": 368.0,
+    "cho_g": 36.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Beirute de Rosbife (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 418.0,
+    "kcal": 919.0,
+    "cho_g": 56.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’s Cheese Salada (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 220.0,
+    "kcal": 601.0,
+    "cho_g": 30.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’s Chicken Crispy (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 230.0,
+    "kcal": 529.0,
+    "cho_g": 33.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’sfiha de Carne (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 75.0,
+    "kcal": 171.0,
+    "cho_g": 20.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’sfiha de Espinafre e Philadelphia (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 80.0,
+    "kcal": 158.0,
+    "cho_g": 19.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’sfiha de Picanha (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 70.0,
+    "kcal": 89.0,
+    "cho_g": 8.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’sfiha Italiana (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 72.0,
+    "kcal": 128.0,
+    "cho_g": 9.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bib’sfiha Quatro Queijos e Philadelphia (Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 80.0,
+    "kcal": 177.0,
+    "cho_g": 8.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Big Bob Artesanal (Bob’s®)",
+    "medida": "1 unidade pequena",
+    "peso_g": 247.0,
+    "kcal": 570.0,
+    "cho_g": 34.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Big King (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 312.0,
+    "kcal": 806.0,
+    "cho_g": 148.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Big Tasty (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 837.0,
+    "cho_g": 41.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bob’s Artesanal (Bob’s®)",
+    "medida": "1 unidade pequena",
+    "peso_g": 330.0,
+    "kcal": 709.0,
+    "cho_g": 34.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bob’s Burger®",
+    "medida": "1 unidade pequena",
+    "peso_g": 165.0,
+    "kcal": 339.0,
+    "cho_g": 28.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bolinha de queijo",
+    "medida": "1 unidade pequena",
+    "peso_g": 20.0,
+    "kcal": 55.0,
+    "cho_g": 7.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Bolinho de chuva salgado",
+    "medida": "1 unidade",
+    "peso_g": 8.0,
+    "kcal": 21.0,
+    "cho_g": 3.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Burger Vegano Junior Fit (Madero®)",
+    "medida": "1 unidade",
+    "peso_g": 300.0,
+    "kcal": 506.0,
+    "cho_g": 73.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheddar (Bob’s®)",
+    "medida": "1 unidade média",
+    "peso_g": 208.0,
+    "kcal": 415.0,
+    "cho_g": 27.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheddar Duplo (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 181.0,
+    "kcal": 410.0,
+    "cho_g": 28.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheddar Triplo (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 260.0,
+    "kcal": 659.0,
+    "cho_g": 32.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheeseburger (Bob’s®)",
+    "medida": "1 unidade pequena",
+    "peso_g": 122.0,
+    "kcal": 336.0,
+    "cho_g": 27.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheeseburger (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 302.0,
+    "cho_g": 32.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheeseburger Madero Fit®",
+    "medida": "1 unidade",
+    "peso_g": 300.0,
+    "kcal": 370.0,
+    "cho_g": 36.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheeseburger Vegetariano Junior Fit (Madero®)",
+    "medida": "1 unidade",
+    "peso_g": 315.0,
+    "kcal": 573.0,
+    "cho_g": 72.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Cheetos®",
+    "medida": "1 pacote pequeno",
+    "peso_g": 55.0,
+    "kcal": 275.0,
+    "cho_g": 37.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Chicken Crisp Barbecue Bacon (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 350.0,
+    "kcal": 600.0,
+    "cho_g": 56.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Chicken Sandwich (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 210.0,
+    "kcal": 609.0,
+    "cho_g": 53.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Chicken Supreme Grill (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 454.0,
+    "cho_g": 30.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "ClubHouse com Crispy (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 607.0,
+    "cho_g": 60.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Coxinha de frango (festa)",
+    "medida": "1 unidade pequena",
+    "peso_g": 15.0,
+    "kcal": 56.0,
+    "cho_g": 3.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Croquete de carne",
+    "medida": "1 unidade média",
+    "peso_g": 25.0,
+    "kcal": 87.0,
+    "cho_g": 5.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Duplo Picanha (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 1434.0,
+    "cho_g": 51.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Duplo Salada (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 390.0,
+    "cho_g": 32.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Egg Cheese Bacon (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 417.0,
+    "cho_g": 27.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Empada (festa)",
+    "medida": "1 unidade pequena",
+    "peso_g": 12.0,
+    "kcal": 43.0,
+    "cho_g": 6.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Esfiha aberta",
+    "medida": "1 unidade média",
+    "peso_g": 60.0,
+    "kcal": 172.0,
+    "cho_g": 23.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Extra Chicken (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 345.0,
+    "cho_g": 35.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Folhado (salgado)",
+    "medida": "1 unidade grande",
+    "peso_g": 40.0,
+    "kcal": 109.0,
+    "cho_g": 9.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Gran Picanha (Bob’s®)",
+    "medida": "1 unidade pequena",
+    "peso_g": 253.0,
+    "kcal": 663.0,
+    "cho_g": 40.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Hambúrguer® (McDonald’s®)",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 248.0,
+    "cho_g": 31.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mc Chicken®",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 404.0,
+    "cho_g": 36.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mc Fish®",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 338.0,
+    "cho_g": 37.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mc Fritas Kids®",
+    "medida": "1 pacote",
+    "peso_g": null,
+    "kcal": 98.0,
+    "cho_g": 12.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mc Fritas pequena®",
+    "medida": "1 pacote",
+    "peso_g": null,
+    "kcal": 203.0,
+    "cho_g": 24.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mc Picanha®",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 1206.0,
+    "cho_g": 59.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "McNífico Bacon®",
+    "medida": "1 unidade",
+    "peso_g": null,
+    "kcal": 571.0,
+    "cho_g": 34.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mega Stacker (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 713.0,
+    "kcal": 1924.0,
+    "cho_g": 48.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mega Stacker 3.0 (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 560.0,
+    "kcal": 1512.0,
+    "cho_g": 46.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Mini Kibe Cremely(Habib’s®)",
+    "medida": "1 unidade",
+    "peso_g": 45.0,
+    "kcal": 100.0,
+    "cho_g": 8.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Onion Rings grande (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 130.0,
+    "kcal": 455.0,
+    "cho_g": 52.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pastel (festa)",
+    "medida": "1 unidade pequena",
+    "peso_g": 8.0,
+    "kcal": 26.0,
+    "cho_g": 3.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Picanha (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 403.0,
+    "kcal": 922.0,
+    "cho_g": 53.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Picanha Cheddar Bacon (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 323.0,
+    "kcal": 762.0,
+    "cho_g": 36.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pingo d´Ouro Elma Chips®",
+    "medida": "1 pacotinho",
+    "peso_g": 30.0,
+    "kcal": 155.0,
+    "cho_g": 17.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pipoca salgada",
+    "medida": "1 saco pequeno ou 1 xícara",
+    "peso_g": 15.0,
+    "kcal": 67.0,
+    "cho_g": 11.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pizza de frango com catupiry",
+    "medida": "1 fatia grande",
+    "peso_g": 130.0,
+    "kcal": 249.0,
+    "cho_g": 35.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pizza de muçarela de bufala, rúcula tomate seco",
+    "medida": "1 fatia grande",
+    "peso_g": 130.0,
+    "kcal": 238.0,
+    "cho_g": 22.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pizza massa fina (média)",
+    "medida": "1 fatia grande",
+    "peso_g": 120.0,
+    "kcal": 208.0,
+    "cho_g": 22.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pizza quatro queijos",
+    "medida": "1 fatia grande",
+    "peso_g": 120.0,
+    "kcal": 272.0,
+    "cho_g": 34.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Pringles® (salgadinho de batata)",
+    "medida": "14 unidades",
+    "peso_g": 25.0,
+    "kcal": 134.0,
+    "cho_g": 14.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Quibe frito",
+    "medida": "1 unidade média",
+    "peso_g": 50.0,
+    "kcal": 127.0,
+    "cho_g": 6.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Risole",
+    "medida": "1 unidade média",
+    "peso_g": 35.0,
+    "kcal": 145.0,
+    "cho_g": 14.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Ruffles®",
+    "medida": "1 pacote pequeno",
+    "peso_g": 30.0,
+    "kcal": 169.0,
+    "cho_g": 14.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Sanduíche de atum",
+    "medida": "1 unidade",
+    "peso_g": 120.0,
+    "kcal": 372.0,
+    "cho_g": 33.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Sanduíche de frango",
+    "medida": "1 unidade méda",
+    "peso_g": 120.0,
+    "kcal": 299.0,
+    "cho_g": 33.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Sanduíche de pernil",
+    "medida": "1 unidade",
+    "peso_g": 120.0,
+    "kcal": 241.0,
+    "cho_g": 17.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Sanduíche de queijo minas",
+    "medida": "1 unidade",
+    "peso_g": 120.0,
+    "kcal": 395.0,
+    "cho_g": 37.0,
+    "grupo": "Doces e doces diet"
+  },
+  {
+    "nome": "Subway Frango Pesto Cream Cheese® (sem queijo/sem molho)",
+    "medida": "1 unidade (15 cm)",
+    "peso_g": 267.0,
+    "kcal": 407.0,
+    "cho_g": 48.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Subway Frango Teriyaki® (sem queijo/sem molho)",
+    "medida": "1 unidade (15 cm)",
+    "peso_g": 237.0,
+    "kcal": 323.0,
+    "cho_g": 51.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Subway Steak Cheddar Cremoso® (sem queijo/ sem molho)",
+    "medida": "1 unidade (15 cm)",
+    "peso_g": 261.0,
+    "kcal": 445.0,
+    "cho_g": 52.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Subway Steak Churrasco® (sem queijo/sem molho)",
+    "medida": "1 unidade (15 cm)",
+    "peso_g": 226.0,
+    "kcal": 370.0,
+    "cho_g": 49.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Subway Vegetariano® (sem queijo/sem molho)",
+    "medida": "1 unidade (15 cm)",
+    "peso_g": 162.0,
+    "kcal": 223.0,
+    "cho_g": 43.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Trio Supremo (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 385.0,
+    "kcal": 840.0,
+    "cho_g": 84.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Veggie Burger (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 158.0,
+    "kcal": 429.0,
+    "cho_g": 148.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Whopper Duplo (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 474.0,
+    "kcal": 996.0,
+    "cho_g": 54.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Whopper Jr. (Burguer King®)",
+    "medida": "1 unidade",
+    "peso_g": 196.0,
+    "kcal": 369.0,
+    "cho_g": 32.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "ndimentos",
+    "medida": "1 colher de café",
+    "peso_g": 4.0,
+    "kcal": 14.0,
+    "cho_g": 14.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Acarajé",
+    "medida": "1 unidade média",
+    "peso_g": 80.0,
+    "kcal": 216.0,
+    "cho_g": 15.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Bacalhoada",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 51.0,
+    "cho_g": 2.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Banana caramelada",
+    "medida": "1 unidade",
+    "peso_g": 50.0,
+    "kcal": 114.0,
+    "cho_g": 29.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Bifum",
+    "medida": "1 prato",
+    "peso_g": 80.0,
+    "kcal": 273.0,
+    "cho_g": 61.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Bobó de camarão",
+    "medida": "1 colher de sopa",
+    "peso_g": 28.0,
+    "kcal": 20.0,
+    "cho_g": 2.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Bolinho de arroz",
+    "medida": "1 unidade pequena",
+    "peso_g": 30.0,
+    "kcal": 82.0,
+    "cho_g": 13.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Bolo de milho verde",
+    "medida": "1 fatia",
+    "peso_g": 60.0,
+    "kcal": 187.0,
+    "cho_g": 27.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Broa de fubá",
+    "medida": "1 colher de sopa",
+    "peso_g": 25.0,
+    "kcal": 32.0,
+    "cho_g": 32.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Burrito de carne de boi",
+    "medida": "1 unidade pequena",
+    "peso_g": 141.0,
+    "kcal": 430.0,
+    "cho_g": 33.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Caldo de carne Knorr®",
+    "medida": "1 tablete",
+    "peso_g": 9.0,
+    "kcal": 24.0,
+    "cho_g": 2.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Caldo de galinha Knorr®",
+    "medida": "1 tablete",
+    "peso_g": 9.0,
+    "kcal": 24.0,
+    "cho_g": 1.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Caldo de mandioca com Frango",
+    "medida": "1 concha",
+    "peso_g": 132.0,
+    "kcal": 360.0,
+    "cho_g": 67.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Canela em pó",
+    "medida": "1 colher de chá",
+    "peso_g": 2.0,
+    "kcal": 6.0,
+    "cho_g": 1.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Canjiquinha de frango",
+    "medida": "1 concha",
+    "peso_g": 150.0,
+    "kcal": 119.0,
+    "cho_g": 20.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Casquinha de siri",
+    "medida": "1 unidade",
+    "peso_g": 80.0,
+    "kcal": 117.0,
+    "cho_g": 5.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Ceviche de frutos do mar e salmão",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 133.0,
+    "cho_g": 3.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Charuto de folha de uva",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 49.0,
+    "cho_g": 3.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Crepioca (1 ovo e 2 colheres de sopa de tapioca)",
+    "medida": "1 unidade",
+    "peso_g": 90.0,
+    "kcal": 114.0,
+    "cho_g": 27.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Cuscuz paulista",
+    "medida": "1 pedaço pequeno",
+    "peso_g": 100.0,
+    "kcal": 142.0,
+    "cho_g": 23.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Empadão",
+    "medida": "1 fatia média",
+    "peso_g": 110.0,
+    "kcal": 177.0,
+    "cho_g": 23.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Estrogonofe de carne / frango",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 30.0,
+    "cho_g": 0.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Farofa",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 60.0,
+    "cho_g": 12.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Farofa pronta Yoki®",
+    "medida": "1 colher de sopa",
+    "peso_g": 35.0,
+    "kcal": 143.0,
+    "cho_g": 28.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Feijoada caseira",
+    "medida": "1 concha média",
+    "peso_g": 225.0,
+    "kcal": 409.0,
+    "cho_g": 38.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Filé de frango à parmegiana",
+    "medida": "1 pedaço",
+    "peso_g": 110.0,
+    "kcal": 321.0,
+    "cho_g": 14.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Fondue de chocolate",
+    "medida": "1 colher de sopa",
+    "peso_g": 30.0,
+    "kcal": 105.0,
+    "cho_g": 15.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Frango xadrez",
+    "medida": "1 pedaço médio",
+    "peso_g": 95.0,
+    "kcal": 150.0,
+    "cho_g": 150.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Galinhada com pequi",
+    "medida": "1 colher de servir",
+    "peso_g": 60.0,
+    "kcal": 108.0,
+    "cho_g": 13.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Gari (gengibre em conserva)",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 22.0,
+    "cho_g": 5.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Guacamole",
+    "medida": "1 porção",
+    "peso_g": 29.0,
+    "kcal": 46.0,
+    "cho_g": 2.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Guioza de frango",
+    "medida": "2 unidades",
+    "peso_g": 70.0,
+    "kcal": 88.0,
+    "cho_g": 13.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Homus",
+    "medida": "1 colher se sopa",
+    "peso_g": 30.0,
+    "kcal": 94.0,
+    "cho_g": 14.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Kafta na bandeja (Habib´s®)",
+    "medida": "1 porção",
+    "peso_g": 250.0,
+    "kcal": 300.0,
+    "cho_g": 14.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Kanimaki",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 19.0,
+    "cho_g": 4.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Lasanha",
+    "medida": "1 porção",
+    "peso_g": 154.0,
+    "kcal": 65.0,
+    "cho_g": 65.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Lasanha de berinjela",
+    "medida": "1 porção",
+    "peso_g": 110.0,
+    "kcal": 116.0,
+    "cho_g": 8.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Lasanha verde",
+    "medida": "1 pedaço pequeno",
+    "peso_g": 120.0,
+    "kcal": 163.0,
+    "cho_g": 16.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Maionese de batatas",
+    "medida": "1 colher de sopa",
+    "peso_g": 38.0,
+    "kcal": 58.0,
+    "cho_g": 7.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Mingau (média)",
+    "medida": "1 colher de sopa",
+    "peso_g": 37.0,
+    "kcal": 50.0,
+    "cho_g": 8.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Moela",
+    "medida": "1 colher de sopa cheia",
+    "peso_g": 25.0,
+    "kcal": 29.0,
+    "cho_g": 0.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho agridoce",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 14.0,
+    "cho_g": 3.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho barbecue",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 26.0,
+    "cho_g": 6.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho branco",
+    "medida": "1 colher de sopa",
+    "peso_g": 35.0,
+    "kcal": 54.0,
+    "cho_g": 4.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho de iogurte",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 12.0,
+    "cho_g": 2.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho de pimenta industrializado",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 1.0,
+    "cho_g": 0.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho inglês",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 15.0,
+    "cho_g": 2.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho madeira",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 16.0,
+    "cho_g": 1.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho parmesão",
+    "medida": "1 colher de sopa",
+    "peso_g": 13.0,
+    "kcal": 70.0,
+    "cho_g": 1.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho rosé",
+    "medida": "1 colher de sopa",
+    "peso_g": 13.0,
+    "kcal": 33.0,
+    "cho_g": 3.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Molho tártaro",
+    "medida": "1 colher de sopa",
+    "peso_g": 20.0,
+    "kcal": 105.0,
+    "cho_g": 1.0,
+    "grupo": "Bebidas"
+  },
+  {
+    "nome": "Quiche de queijo",
+    "medida": "1 unidade pequena",
+    "peso_g": 30.0,
+    "kcal": 227.0,
+    "cho_g": 11.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Rabada bovina com batata e agrião",
+    "medida": "1 porção",
+    "peso_g": 110.0,
+    "kcal": 235.0,
+    "cho_g": 5.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Risoto de cogumelos",
+    "medida": "1 colher de servir",
+    "peso_g": 60.0,
+    "kcal": 83.0,
+    "cho_g": 9.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Risoto de frutos do mar",
+    "medida": "1 colher de servir",
+    "peso_g": 60.0,
+    "kcal": 95.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Risoto milanês Maggi®",
+    "medida": "1 colher de sopa",
+    "peso_g": 25.0,
+    "kcal": 29.0,
+    "cho_g": 6.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sakemaki",
+    "medida": "1 unidade",
+    "peso_g": 15.0,
+    "kcal": 22.0,
+    "cho_g": 3.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Salpicão de frango",
+    "medida": "1 colher de sopa",
+    "peso_g": 25.0,
+    "kcal": 61.0,
+    "cho_g": 2.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sashimi salmão",
+    "medida": "1 fatia",
+    "peso_g": 10.0,
+    "kcal": 15.0,
+    "cho_g": 0.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sopa Canja",
+    "medida": "1 concha",
+    "peso_g": 130.0,
+    "kcal": 52.0,
+    "cho_g": 8.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sopa creme de ervilha Knorr ®",
+    "medida": "1 concha",
+    "peso_g": 130.0,
+    "kcal": 40.0,
+    "cho_g": 5.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sopa de ervilha",
+    "medida": "1 concha",
+    "peso_g": 130.0,
+    "kcal": 165.0,
+    "cho_g": 26.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sopa de feijão com macarrão",
+    "medida": "1 concha",
+    "peso_g": 130.0,
+    "kcal": 211.0,
+    "cho_g": 30.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sopa de legumes com carne",
+    "medida": "1 concha",
+    "peso_g": 130.0,
+    "kcal": 100.0,
+    "cho_g": 8.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sopa de vegetais Optifast®",
+    "medida": "1 sachê",
+    "peso_g": 54.0,
+    "kcal": 201.0,
+    "cho_g": 23.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Soup Lift® – Frango com batata-doce",
+    "medida": "1 sachê",
+    "peso_g": 37.0,
+    "kcal": 122.0,
+    "cho_g": 9.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Steak tartare",
+    "medida": "1 porção pequena",
+    "peso_g": 100.0,
+    "kcal": 199.0,
+    "cho_g": 2.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Suflê de legumes",
+    "medida": "1 colher de sopa",
+    "peso_g": 55.0,
+    "kcal": 70.0,
+    "cho_g": 5.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sunomono",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 67.0,
+    "cho_g": 15.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Sushi kappamaki",
+    "medida": "1 unidade média",
+    "peso_g": 15.0,
+    "kcal": 22.0,
+    "cho_g": 5.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Tekkamaki",
+    "medida": "1 unidade",
+    "peso_g": 120.0,
+    "kcal": 258.0,
+    "cho_g": 24.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Temaki califórnia",
+    "medida": "1 unidade média",
+    "peso_g": 80.0,
+    "kcal": 112.0,
+    "cho_g": 26.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Temaki kani",
+    "medida": "1 unidade média",
+    "peso_g": 80.0,
+    "kcal": 107.0,
+    "cho_g": 25.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Temaki sem arroz (média)",
+    "medida": "1 unidade média",
+    "peso_g": 140.0,
+    "kcal": 175.0,
+    "cho_g": 9.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Temaki skin",
+    "medida": "1 unidade média",
+    "peso_g": 80.0,
+    "kcal": 184.0,
+    "cho_g": 29.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Tempurá de camarão",
+    "medida": "1 unidade",
+    "peso_g": 70.0,
+    "kcal": 98.0,
+    "cho_g": 6.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Tempurá de legumes e camarão",
+    "medida": "1 unidade",
+    "peso_g": 70.0,
+    "kcal": 101.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Torta de frango",
+    "medida": "1 fatia média",
+    "peso_g": 85.0,
+    "kcal": 200.0,
+    "cho_g": 16.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Torta de sardinha",
+    "medida": "1 fatia grande",
+    "peso_g": 100.0,
+    "kcal": 217.0,
+    "cho_g": 14.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Uramaki califórnia",
+    "medida": "1 unidade",
+    "peso_g": 50.0,
+    "kcal": 27.0,
+    "cho_g": 6.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Uramaki filadélfia",
+    "medida": "1 unidade",
+    "peso_g": 60.0,
+    "kcal": 54.0,
+    "cho_g": 10.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Uramaki skin",
+    "medida": "1 unidade",
+    "peso_g": 20.0,
+    "kcal": 34.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Vatapá",
+    "medida": "1 unidade",
+    "peso_g": 100.0,
+    "kcal": 127.0,
+    "cho_g": 9.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Yakisoba clássico",
+    "medida": "1 colher de servir",
+    "peso_g": 50.0,
+    "kcal": 264.0,
+    "cho_g": 29.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "uplemento",
+    "medida": "1 colher de medida",
+    "peso_g": 17.0,
+    "kcal": 57.0,
+    "cho_g": 3.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Barra Crocante de Amendoim Levittá®",
+    "medida": "1 unidade",
+    "peso_g": 12.0,
+    "kcal": 57.0,
+    "cho_g": 5.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Barra Crocante de gergelim, quinoa e cacau Levittá®",
+    "medida": "1 unidade",
+    "peso_g": 10.0,
+    "kcal": 43.0,
+    "cho_g": 5.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Best Whey Bar® – Banana",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 100.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Best Whey Bar® – Caramelo",
+    "medida": "1 unidade",
+    "peso_g": 33.0,
+    "kcal": 120.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Best Whey Bar® – Churros",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 100.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Best Whey Bar® – Original",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 100.0,
+    "cho_g": 7.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "BiO2® Barra de frutas e sementes Superfood Green",
+    "medida": "1 unidade",
+    "peso_g": 38.0,
+    "kcal": 137.0,
+    "cho_g": 20.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "BiO2® Barra de proteína - Cacau e maca peruana",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 157.0,
+    "cho_g": 17.0,
+    "grupo": "Lanches, salgados e sanduíches"
+  },
+  {
+    "nome": "Cubitan®",
+    "medida": "1 garrafinha",
+    "peso_g": 200.0,
+    "kcal": 250.0,
+    "cho_g": 28.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Diasip®",
+    "medida": "1 garrafinha",
+    "peso_g": 200.0,
+    "kcal": 200.0,
+    "cho_g": 24.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "D-Ribose",
+    "medida": "1 colher de medida",
+    "peso_g": 5.0,
+    "kcal": 20.0,
+    "cho_g": 5.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Ensure Plus Advance®",
+    "medida": "1 unidae",
+    "peso_g": 220.0,
+    "kcal": 330.0,
+    "cho_g": 37.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Fiber Balance Nutrify®",
+    "medida": "1 sicoop",
+    "peso_g": 5.0,
+    "kcal": 0.0,
+    "cho_g": 0.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Fortifit Pro®",
+    "medida": "1 porção",
+    "peso_g": 100.0,
+    "kcal": 100.0,
+    "cho_g": 6.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Gatorade®",
+    "medida": "1 garrafinha",
+    "peso_g": 500.0,
+    "kcal": 127.0,
+    "cho_g": 30.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Glicofast® pastilha",
+    "medida": "1 pastilha",
+    "peso_g": 3.0,
+    "kcal": 12.0,
+    "cho_g": 3.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Glucerna SR® em pó",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 64.0,
+    "cho_g": 8.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Glutamina (Média)",
+    "medida": "1 colher de medida",
+    "peso_g": 5.0,
+    "kcal": 20.0,
+    "cho_g": 0.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Gu Drink Mix Limão e Amora®",
+    "medida": "1 colher de sopa",
+    "peso_g": 13.0,
+    "kcal": 50.0,
+    "cho_g": 13.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Gu Energy Tabs®",
+    "medida": "1 tablete",
+    "peso_g": 5.0,
+    "kcal": 12.0,
+    "cho_g": 3.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Life Vegan Banana com Canela Vitafor®",
+    "medida": "1 colher de medida",
+    "peso_g": 30.0,
+    "kcal": 122.0,
+    "cho_g": 3.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Maltodextrina®",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 57.0,
+    "cho_g": 14.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Natural Whey Verde Campo® LACFREE",
+    "medida": "1 unidade",
+    "peso_g": 250.0,
+    "kcal": 122.0,
+    "cho_g": 17.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Nutren Active® Banana ou Baunilha ou Morango",
+    "medida": "1 colher de sopa",
+    "peso_g": 16.0,
+    "kcal": 55.0,
+    "cho_g": 9.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Nutricional Yeast Flakes®",
+    "medida": "1 colher de chá",
+    "peso_g": 2.0,
+    "kcal": 6.0,
+    "cho_g": 1.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Nutridrink Compact Protein® Morango",
+    "medida": "1 garrafinha",
+    "peso_g": 125.0,
+    "kcal": 187.0,
+    "cho_g": 20.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Paçoca com Whey Protein Power One®",
+    "medida": "1 unidade",
+    "peso_g": 18.0,
+    "kcal": 94.0,
+    "cho_g": 6.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Paçoca de Amendoim + Whey Flormel®",
+    "medida": "1 unidade",
+    "peso_g": 28.0,
+    "kcal": 104.0,
+    "cho_g": 9.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Palatinose",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 60.0,
+    "cho_g": 15.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Pasta de Amendoim Pé de Moleque Proteico Power One®",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 85.0,
+    "cho_g": 4.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Pro whey Itambé® Baunilha",
+    "medida": "1 unidade",
+    "peso_g": 200.0,
+    "kcal": 132.0,
+    "cho_g": 9.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Protein Coffee Cappuccino Power One®",
+    "medida": "1 colher de sopa",
+    "peso_g": 13.0,
+    "kcal": 40.0,
+    "cho_g": 4.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Psyllium Vitao®",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 32.0,
+    "cho_g": 8.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Radiance protein bar® Berries + White chocolate",
+    "medida": "1 barra",
+    "peso_g": 70.0,
+    "kcal": 283.0,
+    "cho_g": 17.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Shake Natural Whey Verde Campo®",
+    "medida": "1 unidade",
+    "peso_g": 250.0,
+    "kcal": 132.0,
+    "cho_g": 18.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Soup Lift® – Batata-baroa com couve",
+    "medida": "1 sachê",
+    "peso_g": 31.0,
+    "kcal": 112.0,
+    "cho_g": 10.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Soup Lift® – Tomate com cúrcuma",
+    "medida": "1 sachê",
+    "peso_g": 35.0,
+    "kcal": 115.0,
+    "cho_g": 12.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Supino Zero® Banana e Ameixa",
+    "medida": "1 unidade",
+    "peso_g": 24.0,
+    "kcal": 81.0,
+    "cho_g": 17.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Supino Zero® Banana e Chocolate Branco",
+    "medida": "1 unidade",
+    "peso_g": 24.0,
+    "kcal": 83.0,
+    "cho_g": 17.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Sustagen kids® (Média)",
+    "medida": "3 colheres de sopa",
+    "peso_g": 27.0,
+    "kcal": 108.0,
+    "cho_g": 24.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Sustemil Kids®",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 60.0,
+    "cho_g": 11.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Sustemil Soy kids®",
+    "medida": "1 colher de sopa",
+    "peso_g": 15.0,
+    "kcal": 57.0,
+    "cho_g": 10.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Sustemil Veggie®",
+    "medida": "1 colher de sopa",
+    "peso_g": 10.0,
+    "kcal": 24.0,
+    "cho_g": 3.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "SUUM® pastilha",
+    "medida": "1 pastilha",
+    "peso_g": 4.0,
+    "kcal": 0.0,
+    "cho_g": 0.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Vegan Protein Reaction Baunilha Atlhetica®",
+    "medida": "1 dosador",
+    "peso_g": 36.0,
+    "kcal": 139.0,
+    "cho_g": 11.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Veganpro Cappucino Nutrify®",
+    "medida": "1 scoop",
+    "peso_g": 15.0,
+    "kcal": 50.0,
+    "cho_g": 4.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Veggie Protein Neutro Essential Nutrition®",
+    "medida": "1 colher de medida",
+    "peso_g": 27.0,
+    "kcal": 110.0,
+    "cho_g": 0.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "VO2 Whey Bar®",
+    "medida": "1 unidade",
+    "peso_g": 30.0,
+    "kcal": 123.0,
+    "cho_g": 14.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Bar Protein Integralmedica®",
+    "medida": "1 unidade",
+    "peso_g": 40.0,
+    "kcal": 139.0,
+    "cho_g": 15.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Protein Concentrado Chocolate (Média)",
+    "medida": "1 medidor",
+    "peso_g": 30.0,
+    "kcal": 123.0,
+    "cho_g": 6.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Protein Concentrado Morango (Média)",
+    "medida": "1 medidor",
+    "peso_g": 35.0,
+    "kcal": 135.0,
+    "cho_g": 7.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Protein Isolado Chocolate (Média)",
+    "medida": "1 medidor",
+    "peso_g": 30.0,
+    "kcal": 113.0,
+    "cho_g": 2.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Protein Isolado Neutro (Média)",
+    "medida": "1 medidor",
+    "peso_g": 30.0,
+    "kcal": 112.0,
+    "cho_g": 1.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Zero Lactose Banana Piracanjuba®",
+    "medida": "1 unidade",
+    "peso_g": 250.0,
+    "kcal": 188.0,
+    "cho_g": 21.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  },
+  {
+    "nome": "Whey Zero Lactose Cacau Piracanjuba®",
+    "medida": "1 unidade",
+    "peso_g": 250.0,
+    "kcal": 184.0,
+    "cho_g": 20.0,
+    "grupo": "Pratos prontos e comidas típicas"
+  }
+]
