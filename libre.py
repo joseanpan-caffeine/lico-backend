@@ -1,12 +1,14 @@
 import httpx
+import logging
 import os
-from datetime import datetime
 from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 BASE_URL = os.getenv("LIBRE_API_URL", "https://api-eu.libreview.io")
 
 HEADERS = {
-    "product": "llu.ios",
+    "product": "llu.android",
     "version": "4.12.0",
     "Accept": "application/json",
     "Content-Type": "application/json",
@@ -21,9 +23,8 @@ class LibreClient:
         self.patient_id: Optional[str] = None
 
     async def login(self, _redirect_count: int = 0) -> bool:
-        """Autentica na Abbott. Trata redirect de região com limite de tentativas."""
         if _redirect_count > 2:
-            raise RuntimeError("LibreLinkUp: muitos redirects de região, verifique LIBRE_API_URL")
+            raise RuntimeError("LibreLinkUp: muitos redirects de região")
 
         global BASE_URL
         async with httpx.AsyncClient() as client:
@@ -31,30 +32,57 @@ class LibreClient:
                 f"{BASE_URL}/llu/auth/login",
                 headers=HEADERS,
                 json={"email": self.email, "password": self.password},
-                timeout=10,
+                timeout=15,
             )
             r.raise_for_status()
             data = r.json()
+            logger.info(f"Login response status: {data.get('status')} | keys: {list(data.keys())}")
 
             if data.get("data", {}).get("redirect"):
                 region = data["data"]["region"]
                 BASE_URL = f"https://api-{region}.libreview.io"
+                logger.info(f"Redirecionando para região: {region} → {BASE_URL}")
                 return await self.login(_redirect_count=_redirect_count + 1)
 
-            self.token = data["data"]["authTicket"]["token"]
+            # Status 2 = precisa aceitar termos
+            status = data.get("status")
+            if status == 2:
+                logger.info("Aceitando termos de uso via API...")
+                await self._accept_terms()
+                # Faz login novamente após aceitar
+                return await self.login(_redirect_count=_redirect_count + 1)
+
+            token = data.get("data", {}).get("authTicket", {}).get("token")
+            if not token:
+                logger.error(f"Token não encontrado na resposta: {data}")
+                raise RuntimeError("Token não encontrado na resposta do login")
+
+            self.token = token
+            logger.info("Login LibreLinkUp OK")
             return True
 
+    async def _accept_terms(self):
+        async with httpx.AsyncClient() as client:
+            r = await client.post(
+                f"{BASE_URL}/llu/auth/continue/tou",
+                headers=HEADERS,
+                json={},
+                timeout=10,
+            )
+            logger.info(f"Aceite de termos: {r.status_code} | {r.text[:200]}")
+
     async def _authed_get(self, path: str, _retried: bool = False) -> dict:
-        """GET autenticado com um retry automático em caso de 401."""
         if not self.token:
             await self.login()
 
         headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
         async with httpx.AsyncClient() as client:
-            r = await client.get(f"{BASE_URL}{path}", headers=headers, timeout=10)
+            r = await client.get(f"{BASE_URL}{path}", headers=headers, timeout=15)
+
+        if not r.is_success:
+            logger.error(f"LibreAPI {r.status_code} em {path} | corpo: {r.text[:500]}")
 
         if r.status_code == 401 and not _retried:
-            # Token expirou — faz login e tenta uma vez mais
             self.token = None
             await self.login()
             return await self._authed_get(path, _retried=True)
@@ -87,8 +115,6 @@ class LibreClient:
         }
 
     async def get_graph(self) -> list[dict]:
-        """Últimas ~12h de leituras do gráfico do sensor."""
-        # Garante que temos o patient_id
         if not self.patient_id:
             await self.get_latest_reading()
         if not self.patient_id:
