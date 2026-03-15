@@ -81,7 +81,7 @@ class LibreClient:
     def _build_headers(self) -> dict:
         headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
         if self.account_id:
-            headers["account-id"] = self.account_id
+            headers["account-id"] = self.account_id.replace("-", "")
         return headers
 
     async def _authed_get(self, path: str, _retried: bool = False) -> dict:
