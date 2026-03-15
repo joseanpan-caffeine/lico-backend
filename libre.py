@@ -6,8 +6,8 @@ from typing import Optional
 BASE_URL = os.getenv("LIBRE_API_URL", "https://api-eu.libreview.io")
 
 HEADERS = {
-    "product": "llu.android",
-    "version": "4.7.0",
+    "product": "llu.ios",
+    "version": "4.12.0",
     "Accept": "application/json",
     "Content-Type": "application/json",
 }
