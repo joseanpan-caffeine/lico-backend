@@ -1,6 +1,8 @@
 import httpx
 import logging
 import os
+import json
+import base64
 from typing import Optional
 
 logger = logging.getLogger(__name__)
@@ -13,6 +15,21 @@ HEADERS = {
     "Accept": "application/json",
     "Content-Type": "application/json",
 }
+
+
+def decode_jwt_payload(token: str) -> dict:
+    """Decodifica o payload do JWT sem verificar assinatura."""
+    try:
+        payload_b64 = token.split(".")[1]
+        # JWT usa base64url — adiciona padding se necessário
+        padding = 4 - len(payload_b64) % 4
+        if padding != 4:
+            payload_b64 += "=" * padding
+        payload_bytes = base64.urlsafe_b64decode(payload_b64)
+        return json.loads(payload_bytes)
+    except Exception as e:
+        logger.error(f"Erro ao decodificar JWT: {e}")
+        return {}
 
 
 class LibreClient:
@@ -48,28 +65,24 @@ class LibreClient:
                 await self._accept_terms()
                 return await self.login(_redirect_count=_redirect_count + 1)
 
-            auth_ticket = data.get("data", {}).get("authTicket", {})
-            self.token = auth_ticket.get("token")
+            self.token = data.get("data", {}).get("authTicket", {}).get("token")
+            if not self.token:
+                raise RuntimeError(f"Token não encontrado: {data}")
 
-            user_data = data.get("data", {}).get("user", {})
-            # Loga todos os campos do user para inspecionar
-            logger.info(f"User fields: {list(user_data.keys())}")
-            logger.info(f"User data: {user_data}")
+            # Decodifica o JWT para ver o account-id que a Abbott espera
+            jwt_payload = decode_jwt_payload(self.token)
+            logger.info(f"JWT payload keys: {list(jwt_payload.keys())}")
+            logger.info(f"JWT payload: {jwt_payload}")
 
-            # Tenta diferentes campos onde o account-id pode estar
+            # O account-id correto vem do JWT, não do user object
             self.account_id = (
-                user_data.get("id")
-                or user_data.get("accountId")
-                or user_data.get("account_id")
+                jwt_payload.get("id")
+                or jwt_payload.get("accountId")
+                or jwt_payload.get("sub")
+                or data.get("data", {}).get("user", {}).get("id")
             )
 
-            # Remove hífens para enviar no header
-            if self.account_id:
-                self.account_id_clean = self.account_id.replace("-", "")
-            else:
-                self.account_id_clean = None
-
-            logger.info(f"Login OK | account_id raw: {self.account_id} | clean: {self.account_id_clean}")
+            logger.info(f"Login OK | account_id: {self.account_id}")
             return True
 
     async def _accept_terms(self):
@@ -84,13 +97,10 @@ class LibreClient:
 
     def _build_headers(self) -> dict:
         headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
-        # Testa com e sem hífens — loga qual está sendo enviado
-        if self.account_id_clean:
-            headers["account-id"] = self.account_id_clean
-            logger.info(f"Enviando account-id (sem hífens): {self.account_id_clean}")
-        elif self.account_id:
-            headers["account-id"] = self.account_id
-            logger.info(f"Enviando account-id (com hífens): {self.account_id}")
+        if self.account_id:
+            # Envia sem hífens
+            headers["account-id"] = self.account_id.replace("-", "")
+            logger.info(f"account-id enviado: {headers['account-id']}")
         return headers
 
     async def _authed_get(self, path: str, _retried: bool = False) -> dict:
