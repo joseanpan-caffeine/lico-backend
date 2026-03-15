@@ -96,11 +96,12 @@ class LibreClient:
             logger.info(f"Termos aceitos: {r.status_code}")
 
     def _build_headers(self) -> dict:
-    headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
-    if self.account_id:
-        headers["account-id"] = self.account_id
-        logger.info(f"account-id enviado: {headers['account-id']}")
-    return headers
+        headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
+        if self.account_id:
+            # Envia sem hífens
+            headers["account-id"] = self.account_id.replace("-", "")
+            logger.info(f"account-id enviado: {headers['account-id']}")
+        return headers
 
     async def _authed_get(self, path: str, _retried: bool = False) -> dict:
         if not self.token:
