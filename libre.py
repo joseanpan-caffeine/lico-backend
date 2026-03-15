@@ -37,7 +37,6 @@ class LibreClient:
             )
             r.raise_for_status()
             data = r.json()
-            logger.info(f"Login status: {data.get('status')} | keys: {list(data.get('data', {}).keys())}")
 
             if data.get("data", {}).get("redirect"):
                 region = data["data"]["region"]
@@ -46,26 +45,31 @@ class LibreClient:
                 return await self.login(_redirect_count=_redirect_count + 1)
 
             if data.get("status") == 2:
-                logger.info("Aceitando termos de uso...")
                 await self._accept_terms()
                 return await self.login(_redirect_count=_redirect_count + 1)
 
             auth_ticket = data.get("data", {}).get("authTicket", {})
             self.token = auth_ticket.get("token")
 
-            # Captura o account-id — vem em diferentes campos dependendo da versão
             user_data = data.get("data", {}).get("user", {})
+            # Loga todos os campos do user para inspecionar
+            logger.info(f"User fields: {list(user_data.keys())}")
+            logger.info(f"User data: {user_data}")
+
+            # Tenta diferentes campos onde o account-id pode estar
             self.account_id = (
                 user_data.get("id")
                 or user_data.get("accountId")
-                or data.get("data", {}).get("accountId")
+                or user_data.get("account_id")
             )
 
-            logger.info(f"Login OK | account_id: {self.account_id} | token: {'sim' if self.token else 'não'}")
+            # Remove hífens para enviar no header
+            if self.account_id:
+                self.account_id_clean = self.account_id.replace("-", "")
+            else:
+                self.account_id_clean = None
 
-            if not self.token:
-                raise RuntimeError(f"Token não encontrado: {data}")
-
+            logger.info(f"Login OK | account_id raw: {self.account_id} | clean: {self.account_id_clean}")
             return True
 
     async def _accept_terms(self):
@@ -80,8 +84,13 @@ class LibreClient:
 
     def _build_headers(self) -> dict:
         headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
-        if self.account_id:
-            headers["account-id"] = self.account_id.replace("-", "")
+        # Testa com e sem hífens — loga qual está sendo enviado
+        if self.account_id_clean:
+            headers["account-id"] = self.account_id_clean
+            logger.info(f"Enviando account-id (sem hífens): {self.account_id_clean}")
+        elif self.account_id:
+            headers["account-id"] = self.account_id
+            logger.info(f"Enviando account-id (com hífens): {self.account_id}")
         return headers
 
     async def _authed_get(self, path: str, _retried: bool = False) -> dict:
@@ -154,4 +163,3 @@ class LibreClient:
 
 # Singleton
 libre_client = LibreClient()
-
