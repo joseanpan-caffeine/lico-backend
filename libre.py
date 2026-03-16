@@ -35,6 +35,8 @@ class LibreClient:
         self.password = os.getenv("LIBRE_PASSWORD")
         self.token: Optional[str] = None
         self.account_id: Optional[str] = None
+        self.account_id_with: Optional[str] = None
+        self.account_id_without: Optional[str] = None
         self.patient_id: Optional[str] = None
 
     async def login(self, _redirect_count: int = 0) -> bool:
@@ -71,11 +73,10 @@ class LibreClient:
             jwt = decode_jwt(self.token)
 
             raw_id = jwt.get("id") or data.get("data", {}).get("user", {}).get("id", "")
-            self.patient_id = raw_id  # com hífens para usar na URL
-
-            # Testa os dois formatos de account-id
-            self.account_id_with = raw_id                    # com hífens
-            self.account_id_without = raw_id.replace("-", "") # sem hífens
+            self.patient_id = raw_id
+            self.account_id_with = raw_id
+            self.account_id_without = raw_id.replace("-", "")
+            self.account_id = self.account_id_without
 
             logger.info(f"Login OK | role: {jwt.get('role')} | id: {raw_id}")
             return True
@@ -113,6 +114,8 @@ class LibreClient:
     async def _try_both(self, path: str) -> Optional[dict]:
         """Tenta com hífens primeiro, depois sem hífens."""
         for account_id in [self.account_id_with, self.account_id_without]:
+            if not account_id:
+                continue
             try:
                 return await self._get(path, account_id)
             except Exception as e:
@@ -120,6 +123,9 @@ class LibreClient:
         return None
 
     async def get_latest_reading(self) -> Optional[dict]:
+        if not self.token:
+            await self.login()
+
         # Tenta buscar conexões
         data = await self._try_both("/llu/connections")
         if data:
@@ -157,6 +163,8 @@ class LibreClient:
         return None
 
     async def get_graph(self) -> list[dict]:
+        if not self.token:
+            await self.login()
         if not self.patient_id:
             await self.get_latest_reading()
         if not self.patient_id:
