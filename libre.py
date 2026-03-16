@@ -69,16 +69,15 @@ class LibreClient:
 
             self.token = auth.get("token")
 
-            # account-id sem hífens — obrigatório para versão 4.16.0
+            # Testa user.id e jwt.id para descobrir qual a Abbott espera
             raw_id = data.get("data", {}).get("user", {}).get("id", "")
-jwt = decode_jwt(self.token)
-jwt_id = jwt.get("id", "")
-# Testa os dois formatos e loga ambos para diagnóstico
-logger.info(f"user.id: {raw_id} | jwt.id: {jwt_id}")
-self.account_id = jwt_id.replace("-", "") or raw_id.replace("-", "")
-
             jwt = decode_jwt(self.token)
-            logger.info(f"Login OK | role: {jwt.get('role')} | account_id: {self.account_id}")
+            jwt_id = jwt.get("id", "")
+            logger.info(f"user.id: {raw_id} | jwt.id: {jwt_id}")
+
+            # Usa jwt.id sem hifens como account-id
+            self.account_id = jwt_id.replace("-", "") or raw_id.replace("-", "")
+            logger.info(f"Login OK | role: {jwt.get('role')} | account_id enviado: {self.account_id}")
             return True
 
     async def _accept_terms(self):
