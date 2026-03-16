@@ -94,7 +94,7 @@ class LibreClient:
 
         # Envia account-id SEM hifens v2
         if self.account_id:
-            headers["account-id"] = self.account_id.replace("-", "")
+            self.account_id = os.getenv("LIBRE_ACCOUNT_ID") or user.get("id", "").replace("-", "")
             logger.info(f"GET {path} | account-id: {self.account_id}")
 
         async with httpx.AsyncClient() as client:
