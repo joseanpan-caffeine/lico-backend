@@ -71,7 +71,11 @@ class LibreClient:
 
             # account-id sem hífens — obrigatório para versão 4.16.0
             raw_id = data.get("data", {}).get("user", {}).get("id", "")
-            self.account_id = raw_id.replace("-", "")
+jwt = decode_jwt(self.token)
+jwt_id = jwt.get("id", "")
+# Testa os dois formatos e loga ambos para diagnóstico
+logger.info(f"user.id: {raw_id} | jwt.id: {jwt_id}")
+self.account_id = jwt_id.replace("-", "") or raw_id.replace("-", "")
 
             jwt = decode_jwt(self.token)
             logger.info(f"Login OK | role: {jwt.get('role')} | account_id: {self.account_id}")
