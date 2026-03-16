@@ -63,7 +63,6 @@ class LibreClient:
             self.token = data["data"]["authTicket"]["token"]
             jwt = decode_jwt(self.token)
             self.account_id = jwt.get("id") or data["data"]["user"]["id"]
-            self.patient_id = self.account_id  # conta paciente: ID próprio
             logger.info(f"Login OK | role: {jwt.get('role')} | id: {self.account_id}")
             return True
 
@@ -74,75 +73,63 @@ class LibreClient:
                 headers=HEADERS, json={}, timeout=10,
             )
 
-    def _build_headers(self) -> dict:
-        headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
-        if self.account_id:
-            headers["account-id"] = self.account_id
-        return headers
-
-    async def _authed_get(self, path: str, _retried: bool = False) -> dict:
+    async def _get(self, path: str, with_account_id: bool = True, _retried: bool = False) -> dict:
         if not self.token:
             await self.login()
 
-        async with httpx.AsyncClient() as client:
-            r = await client.get(
-                f"{BASE_URL}{path}",
-                headers=self._build_headers(),
-                timeout=15,
-            )
+        headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
+        if with_account_id and self.account_id:
+            headers["account-id"] = self.account_id
 
+        async with httpx.AsyncClient() as client:
+            r = await client.get(f"{BASE_URL}{path}", headers=headers, timeout=15)
+
+        logger.info(f"GET {path} (account-id={'yes' if with_account_id else 'no'}) → {r.status_code}")
         if not r.is_success:
-            logger.error(f"{r.status_code} {path} | {r.text[:300]}")
+            logger.error(f"Body: {r.text[:300]}")
 
         if r.status_code == 401 and not _retried:
             self.token = None
             await self.login()
-            return await self._authed_get(path, _retried=True)
+            return await self._get(path, with_account_id, _retried=True)
 
         r.raise_for_status()
         return r.json()
 
+    async def _discover(self):
+        """Testa todos os endpoints conhecidos para achar qual funciona."""
+        endpoints = [
+            ("/llu/connections", True),
+            ("/llu/connections", False),
+            (f"/llu/connections/{self.account_id}/graph", True),
+            (f"/llu/connections/{self.account_id}/graph", False),
+            ("/llu/graph", True),
+            ("/llu/graph", False),
+        ]
+        for path, with_id in endpoints:
+            try:
+                data = await self._get(path, with_id)
+                logger.info(f"SUCESSO em {path} (account-id={'yes' if with_id else 'no'}) | keys: {list(data.keys())}")
+                logger.info(f"Resposta: {json.dumps(data)[:400]}")
+                return data, path
+            except Exception as e:
+                logger.warning(f"Falhou {path}: {e}")
+        return None, None
+
     async def get_latest_reading(self) -> Optional[dict]:
-        """Busca última leitura — funciona para conta paciente."""
-        try:
-            # Endpoint 1: histórico de glucose do próprio paciente
-            data = await self._authed_get("/llu/glucoseHistory")
-            readings = data.get("data", {}).get("glucoseHistory", [])
-            if readings:
-                latest = readings[-1]
-                logger.info(f"Leitura via glucoseHistory: {latest}")
-                return {
-                    "value_mgdl": latest.get("ValueInMgPerDl") or latest.get("value"),
-                    "timestamp": latest.get("Timestamp") or latest.get("timestamp"),
-                    "trend": latest.get("TrendArrow") or latest.get("trend"),
-                    "is_high": latest.get("isHigh", False),
-                    "is_low": latest.get("isLow", False),
-                }
-        except Exception as e:
-            logger.warning(f"glucoseHistory falhou: {e}")
+        data, path = await self._discover()
+        if not data:
+            return None
 
-        try:
-            # Endpoint 2: leitura atual via sensor ativo
-            data = await self._authed_get("/llu/sensor/reading")
-            r = data.get("data", {})
-            if r:
-                logger.info(f"Leitura via sensor/reading: {r}")
-                return {
-                    "value_mgdl": r.get("ValueInMgPerDl") or r.get("value"),
-                    "timestamp": r.get("Timestamp") or r.get("timestamp"),
-                    "trend": r.get("TrendArrow") or r.get("trend"),
-                    "is_high": r.get("isHigh", False),
-                    "is_low": r.get("isLow", False),
-                }
-        except Exception as e:
-            logger.warning(f"sensor/reading falhou: {e}")
+        # Tenta extrair leitura de diferentes estruturas
+        d = data.get("data", {})
 
-        try:
-            # Endpoint 3: dashboard do paciente
-            data = await self._authed_get("/llu/patient/dashboard")
-            g = data.get("data", {}).get("glucoseMeasurement", {})
+        # Estrutura de connections (caregiver)
+        if isinstance(d, list) and d:
+            conn = d[0]
+            self.patient_id = conn.get("patientId")
+            g = conn.get("glucoseMeasurement", {})
             if g:
-                logger.info(f"Leitura via patient/dashboard: {g}")
                 return {
                     "value_mgdl": g.get("ValueInMgPerDl"),
                     "timestamp": g.get("Timestamp"),
@@ -150,44 +137,47 @@ class LibreClient:
                     "is_high": g.get("isHigh", False),
                     "is_low": g.get("isLow", False),
                 }
-        except Exception as e:
-            logger.warning(f"patient/dashboard falhou: {e}")
 
-        logger.error("Todos os endpoints falharam — logando resposta completa para diagnóstico")
-        try:
-            data = await self._authed_get("/llu/glucoseHistory")
-            logger.info(f"glucoseHistory raw: {json.dumps(data)[:500]}")
-        except Exception as e:
-            logger.error(f"glucoseHistory raw error: {e}")
+        # Estrutura de graph
+        graph = d.get("graphData", []) if isinstance(d, dict) else []
+        if graph:
+            latest = graph[-1]
+            return {
+                "value_mgdl": latest.get("ValueInMgPerDl"),
+                "timestamp": latest.get("Timestamp"),
+                "trend": latest.get("TrendArrow"),
+                "is_high": False,
+                "is_low": False,
+            }
 
+        logger.error(f"Estrutura desconhecida: {json.dumps(data)[:400]}")
         return None
 
     async def get_graph(self) -> list[dict]:
-        """Busca histórico das últimas horas."""
-        try:
-            data = await self._authed_get("/llu/glucoseHistory")
-            readings = data.get("data", {}).get("glucoseHistory", [])
-            if readings:
-                logger.info(f"Graph: {len(readings)} leituras via glucoseHistory")
-                return [
-                    {
-                        "value_mgdl": r.get("ValueInMgPerDl") or r.get("value"),
-                        "timestamp": r.get("Timestamp") or r.get("timestamp"),
-                        "trend": r.get("TrendArrow") or r.get("trend"),
-                        "is_high": False,
-                        "is_low": False,
-                    }
-                    for r in readings
-                    if (r.get("ValueInMgPerDl") or r.get("value")) is not None
-                ]
-        except Exception as e:
-            logger.warning(f"get_graph glucoseHistory falhou: {e}")
+        if not self.patient_id:
+            await self.get_latest_reading()
 
-        # Fallback: retorna leitura única como lista
+        # Tenta graph do patient_id descoberto
+        if self.patient_id:
+            try:
+                data = await self._get(f"/llu/connections/{self.patient_id}/graph", True)
+                items = data.get("data", {}).get("graphData", [])
+                if items:
+                    return [
+                        {
+                            "value_mgdl": i.get("ValueInMgPerDl"),
+                            "timestamp": i.get("Timestamp"),
+                            "trend": i.get("TrendArrow"),
+                            "is_high": False,
+                            "is_low": False,
+                        }
+                        for i in items if i.get("ValueInMgPerDl")
+                    ]
+            except Exception as e:
+                logger.warning(f"graph falhou: {e}")
+
         latest = await self.get_latest_reading()
-        if latest:
-            return [latest]
-        return []
+        return [latest] if latest else []
 
 
 libre_client = LibreClient()
