@@ -92,7 +92,7 @@ class LibreClient:
 
         headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
 
-        # Envia account-id COM hífens — formato que a versão 4.16.0 espera
+        # Envia account-id SEM hifens v2
         if self.account_id:
             headers["account-id"] = self.account_id.replace("-", "")
             logger.info(f"GET {path} | account-id: {self.account_id}")
