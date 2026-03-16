@@ -3,7 +3,6 @@ import logging
 import os
 import json
 import base64
-from datetime import datetime
 from typing import Optional
 
 logger = logging.getLogger(__name__)
@@ -52,7 +51,7 @@ class LibreClient:
             )
             r.raise_for_status()
             data = r.json()
-            logger.info(f"Login response status: {data.get('status')} | region: {data.get('data', {}).get('region', 'n/a')}")
+            logger.info(f"Login status: {data.get('status')} | region: {data.get('data', {}).get('region', 'n/a')}")
 
             if data.get("data", {}).get("redirect"):
                 region = data["data"]["region"]
@@ -70,9 +69,9 @@ class LibreClient:
 
             self.token = auth.get("token")
 
-            # account-id: usa o id do user COM hífens — exatamente como veio
-            user = data.get("data", {}).get("user", {})
-            self.account_id = user.get("id", "")
+            # account-id sem hífens — obrigatório para versão 4.16.0
+            raw_id = data.get("data", {}).get("user", {}).get("id", "")
+            self.account_id = raw_id.replace("-", "")
 
             jwt = decode_jwt(self.token)
             logger.info(f"Login OK | role: {jwt.get('role')} | account_id: {self.account_id}")
@@ -91,11 +90,10 @@ class LibreClient:
             await self.login()
 
         headers = {**HEADERS, "Authorization": f"Bearer {self.token}"}
-
-        # Envia account-id SEM hifens v2
         if self.account_id:
-            self.account_id = os.getenv("LIBRE_ACCOUNT_ID") or user.get("id", "").replace("-", "")
-            logger.info(f"GET {path} | account-id: {self.account_id}")
+            headers["account-id"] = self.account_id
+
+        logger.info(f"GET {path} | account-id: {self.account_id}")
 
         async with httpx.AsyncClient() as client:
             r = await client.get(f"{BASE_URL}{path}", headers=headers, timeout=15)
