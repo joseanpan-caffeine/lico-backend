@@ -69,15 +69,14 @@ class LibreClient:
 
             self.token = auth.get("token")
 
-            # Testa user.id e jwt.id para descobrir qual a Abbott espera
+            # Loga resposta completa para diagnóstico
+            logger.info(f"Full login data: {json.dumps(data.get('data', {}))[:1500]}")
+
             raw_id = data.get("data", {}).get("user", {}).get("id", "")
             jwt = decode_jwt(self.token)
-            jwt_id = jwt.get("id", "")
-            logger.info(f"user.id: {raw_id} | jwt.id: {jwt_id}")
+            self.account_id = jwt.get("id", raw_id).replace("-", "")
 
-            # Usa jwt.id sem hifens como account-id
-            self.account_id = jwt_id.replace("-", "") or raw_id.replace("-", "")
-            logger.info(f"Login OK | role: {jwt.get('role')} | account_id enviado: {self.account_id}")
+            logger.info(f"Login OK | role: {jwt.get('role')} | account_id: {self.account_id}")
             return True
 
     async def _accept_terms(self):
@@ -101,9 +100,7 @@ class LibreClient:
         async with httpx.AsyncClient() as client:
             r = await client.get(f"{BASE_URL}{path}", headers=headers, timeout=15)
 
-        logger.info(f"GET {path} → {r.status_code}")
-        if not r.is_success:
-            logger.error(f"Body: {r.text[:400]}")
+        logger.info(f"GET {path} → {r.status_code} | body: {r.text[:300]}")
 
         if r.status_code == 401 and not _retried:
             self.token = None
@@ -114,32 +111,42 @@ class LibreClient:
         return r.json()
 
     async def get_latest_reading(self) -> Optional[dict]:
-        try:
-            data = await self._get("/llu/connections")
-            connections = data.get("data", [])
+        # Testa múltiplos endpoints para conta HCP
+        endpoints = [
+            "/llu/connections",
+            "/llu/patients",
+            "/llu/practice/patients",
+            "/llu/hcp/connections",
+        ]
+        for path in endpoints:
+            try:
+                data = await self._get(path)
+                logger.info(f"SUCESSO em {path}: {json.dumps(data)[:300]}")
 
-            if not isinstance(connections, list) or not connections:
-                logger.warning(f"Conexões vazias: {json.dumps(data)[:200]}")
-                return None
+                connections = data.get("data", [])
+                if not isinstance(connections, list) or not connections:
+                    continue
 
-            conn = connections[0]
-            self.patient_id = conn.get("patientId")
-            logger.info(f"Conectado a: {conn.get('firstName')} {conn.get('lastName')} | patient_id: {self.patient_id}")
+                conn = connections[0]
+                self.patient_id = conn.get("patientId") or conn.get("id")
+                logger.info(f"Conectado a: {conn.get('firstName')} {conn.get('lastName')} | patient_id: {self.patient_id}")
 
-            g = conn.get("glucoseMeasurement", {})
-            if not g:
-                return None
+                g = conn.get("glucoseMeasurement", {})
+                if not g:
+                    continue
 
-            return {
-                "value_mgdl": g.get("ValueInMgPerDl"),
-                "timestamp": g.get("Timestamp"),
-                "trend": g.get("TrendArrow"),
-                "is_high": g.get("isHigh", False),
-                "is_low": g.get("isLow", False),
-            }
-        except Exception as e:
-            logger.error(f"get_latest_reading falhou: {e}")
-            return None
+                return {
+                    "value_mgdl": g.get("ValueInMgPerDl"),
+                    "timestamp": g.get("Timestamp"),
+                    "trend": g.get("TrendArrow"),
+                    "is_high": g.get("isHigh", False),
+                    "is_low": g.get("isLow", False),
+                }
+            except Exception as e:
+                logger.warning(f"{path} falhou: {e}")
+                continue
+
+        return None
 
     async def get_graph(self) -> list[dict]:
         if not self.patient_id:
