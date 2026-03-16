@@ -67,6 +67,8 @@ class MealEntryIn(BaseModel):
     kcal: Optional[float] = None
     grupo: Optional[str] = None
     eaten_at: Optional[datetime] = None   # defaults to now
+    matched_from_db: Optional[bool] = None  # ignorado no banco, usado só no frontend
+    peso_g: Optional[float] = None  # ignorado no banco
 
 
 class MealEntryOut(BaseModel):
