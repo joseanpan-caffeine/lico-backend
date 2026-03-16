@@ -62,8 +62,25 @@ class LibreClient:
 
             self.token = data["data"]["authTicket"]["token"]
             jwt = decode_jwt(self.token)
-            self.account_id = jwt.get("id") or data["data"]["user"]["id"]
-            logger.info(f"Login OK | role: {jwt.get('role')} | id: {self.account_id}")
+
+            # Loga tudo para diagnóstico
+            logger.info(f"Login full data keys: {list(data.get('data', {}).keys())}")
+            logger.info(f"Login full data: {json.dumps(data.get('data', {}))[:800]}")
+            logger.info(f"JWT: {jwt}")
+
+            # Tenta todos os campos possíveis onde o account-id pode estar
+            d = data.get("data", {})
+            self.account_id = (
+                d.get("accountId")
+                or d.get("account_id")
+                or jwt.get("accountId")
+                or jwt.get("account_id")
+                or d.get("user", {}).get("accountId")
+                or d.get("user", {}).get("id")
+                or jwt.get("id")
+            )
+
+            logger.info(f"Login OK | role: {jwt.get('role')} | account_id: {self.account_id}")
             return True
 
     async def _accept_terms(self):
@@ -96,88 +113,48 @@ class LibreClient:
         r.raise_for_status()
         return r.json()
 
-    async def _discover(self):
-        """Testa todos os endpoints conhecidos para achar qual funciona."""
-        endpoints = [
-            ("/llu/connections", True),
-            ("/llu/connections", False),
-            (f"/llu/connections/{self.account_id}/graph", True),
-            (f"/llu/connections/{self.account_id}/graph", False),
-            ("/llu/graph", True),
-            ("/llu/graph", False),
-        ]
-        for path, with_id in endpoints:
-            try:
-                data = await self._get(path, with_id)
-                logger.info(f"SUCESSO em {path} (account-id={'yes' if with_id else 'no'}) | keys: {list(data.keys())}")
-                logger.info(f"Resposta: {json.dumps(data)[:400]}")
-                return data, path
-            except Exception as e:
-                logger.warning(f"Falhou {path}: {e}")
-        return None, None
-
     async def get_latest_reading(self) -> Optional[dict]:
-        data, path = await self._discover()
-        if not data:
-            return None
-
-        # Tenta extrair leitura de diferentes estruturas
-        d = data.get("data", {})
-
-        # Estrutura de connections (caregiver)
-        if isinstance(d, list) and d:
-            conn = d[0]
-            self.patient_id = conn.get("patientId")
-            g = conn.get("glucoseMeasurement", {})
-            if g:
-                return {
-                    "value_mgdl": g.get("ValueInMgPerDl"),
-                    "timestamp": g.get("Timestamp"),
-                    "trend": g.get("TrendArrow"),
-                    "is_high": g.get("isHigh", False),
-                    "is_low": g.get("isLow", False),
-                }
-
-        # Estrutura de graph
-        graph = d.get("graphData", []) if isinstance(d, dict) else []
-        if graph:
-            latest = graph[-1]
-            return {
-                "value_mgdl": latest.get("ValueInMgPerDl"),
-                "timestamp": latest.get("Timestamp"),
-                "trend": latest.get("TrendArrow"),
-                "is_high": False,
-                "is_low": False,
-            }
-
-        logger.error(f"Estrutura desconhecida: {json.dumps(data)[:400]}")
+        try:
+            data = await self._get("/llu/connections", True)
+            d = data.get("data", {})
+            if isinstance(d, list) and d:
+                conn = d[0]
+                self.patient_id = conn.get("patientId")
+                g = conn.get("glucoseMeasurement", {})
+                if g:
+                    return {
+                        "value_mgdl": g.get("ValueInMgPerDl"),
+                        "timestamp": g.get("Timestamp"),
+                        "trend": g.get("TrendArrow"),
+                        "is_high": g.get("isHigh", False),
+                        "is_low": g.get("isLow", False),
+                    }
+        except Exception as e:
+            logger.warning(f"get_latest_reading falhou: {e}")
         return None
 
     async def get_graph(self) -> list[dict]:
         if not self.patient_id:
             await self.get_latest_reading()
-
-        # Tenta graph do patient_id descoberto
-        if self.patient_id:
-            try:
-                data = await self._get(f"/llu/connections/{self.patient_id}/graph", True)
-                items = data.get("data", {}).get("graphData", [])
-                if items:
-                    return [
-                        {
-                            "value_mgdl": i.get("ValueInMgPerDl"),
-                            "timestamp": i.get("Timestamp"),
-                            "trend": i.get("TrendArrow"),
-                            "is_high": False,
-                            "is_low": False,
-                        }
-                        for i in items if i.get("ValueInMgPerDl")
-                    ]
-            except Exception as e:
-                logger.warning(f"graph falhou: {e}")
-
-        latest = await self.get_latest_reading()
-        return [latest] if latest else []
+        if not self.patient_id:
+            return []
+        try:
+            data = await self._get(f"/llu/connections/{self.patient_id}/graph", True)
+            return [
+                {
+                    "value_mgdl": i.get("ValueInMgPerDl"),
+                    "timestamp": i.get("Timestamp"),
+                    "trend": i.get("TrendArrow"),
+                    "is_high": False,
+                    "is_low": False,
+                }
+                for i in data.get("data", {}).get("graphData", [])
+                if i.get("ValueInMgPerDl")
+            ]
+        except Exception as e:
+            logger.warning(f"get_graph falhou: {e}")
+            latest = await self.get_latest_reading()
+            return [latest] if latest else []
 
 
 libre_client = LibreClient()
