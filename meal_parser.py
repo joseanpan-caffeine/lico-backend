@@ -33,7 +33,7 @@ def _candidate_foods(description: str, max_candidates: int = 60) -> list[dict]:
         overlap = len(words & tokens)
         if overlap > 0:
             scored.append((overlap, food))
-    scored.sort(key=lambda x: -x[0])
+    scored.sort(key=lambda x: (-x[0], 0 if x[1].get("fonte") == "CDBH-MANUAL" else 1))
     candidates = [f for _, f in scored[:max_candidates]]
 
     if len(candidates) < 10:
