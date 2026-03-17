@@ -1,5 +1,5 @@
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from sqlalchemy import select
 from database import AsyncSessionLocal
@@ -12,7 +12,6 @@ scheduler = AsyncIOScheduler(timezone="America/Bahia")
 
 
 def parse_timestamp(ts_str: str) -> datetime:
-    """Aceita múltiplos formatos de timestamp."""
     formats = [
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%dT%H:%M:%S",
@@ -20,11 +19,13 @@ def parse_timestamp(ts_str: str) -> datetime:
     ]
     for fmt in formats:
         try:
-            return datetime.strptime(ts_str, fmt)
+            dt = datetime.strptime(ts_str, fmt)
+            # Nightscout armazena em UTC — converte para BRT (UTC-3)
+            return dt - timedelta(hours=3)
         except ValueError:
             continue
     try:
-        return datetime.fromisoformat(ts_str)
+        return datetime.fromisoformat(ts_str) - timedelta(hours=3)
     except Exception:
         return datetime.now()
 
