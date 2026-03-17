@@ -11,14 +11,22 @@ logger = logging.getLogger(__name__)
 scheduler = AsyncIOScheduler(timezone="America/Bahia")
 
 
-def parse_libre_timestamp(ts_str: str) -> datetime:
-    try:
-        return datetime.strptime(ts_str, "%m/%d/%Y %I:%M:%S %p")
-    except ValueError:
+def parse_timestamp(ts_str: str) -> datetime:
+    """Aceita múltiplos formatos de timestamp."""
+    formats = [
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S",
+        "%m/%d/%Y %I:%M:%S %p",
+    ]
+    for fmt in formats:
         try:
-            return datetime.fromisoformat(ts_str)
-        except Exception:
-            return datetime.utcnow()
+            return datetime.strptime(ts_str, fmt)
+        except ValueError:
+            continue
+    try:
+        return datetime.fromisoformat(ts_str)
+    except Exception:
+        return datetime.now()
 
 
 async def poll_libre():
@@ -30,7 +38,7 @@ async def poll_libre():
                 readings = [latest]
 
         if not readings:
-            logger.warning("Nenhuma leitura recebida do LibreLinkUp")
+            logger.warning("Nenhuma leitura recebida do Nightscout")
             return
 
         async with AsyncSessionLocal() as db:
@@ -39,7 +47,7 @@ async def poll_libre():
                 if not r.get("timestamp") or not r.get("value_mgdl"):
                     continue
 
-                ts = parse_libre_timestamp(r["timestamp"])
+                ts = parse_timestamp(str(r["timestamp"]))
 
                 existing = await db.execute(
                     select(GlucoseReading).where(GlucoseReading.timestamp == ts)
@@ -57,13 +65,13 @@ async def poll_libre():
                 saved += 1
 
             await db.commit()
-            logger.info(f"Polling Libre: {saved} novas leituras salvas")
+            logger.info(f"Nightscout polling: {saved} novas leituras salvas")
 
     except Exception as e:
-        logger.error(f"Erro no polling Libre: {e}", exc_info=True)
+        logger.error(f"Erro no polling: {e}", exc_info=True)
 
 
 def start_scheduler():
-    scheduler.add_job(poll_libre, "interval", minutes=5, id="libre_poll", replace_existing=True)
+    scheduler.add_job(poll_libre, "interval", minutes=5, id="poll_libre", replace_existing=True)
     scheduler.start()
     logger.info("Scheduler iniciado — polling a cada 5 minutos")
