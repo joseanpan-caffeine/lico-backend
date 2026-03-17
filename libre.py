@@ -46,7 +46,7 @@ class LibreClient:
             }
             trend = trend_map.get(direction, 3)
 
-            timestamp = datetime.utcfromtimestamp(date_ms / 1000).strftime("%Y-%m-%d %H:%M:%S")
+            timestamp = datetime.fromtimestamp(date_ms / 1000).strftime("%Y-%m-%d %H:%M:%S")
 
             logger.info(f"Nightscout: {sgv} mg/dL | {direction} | {timestamp}")
 
@@ -82,7 +82,7 @@ class LibreClient:
                     continue
                 direction = entry.get("direction", "")
                 date_ms = entry.get("date", 0)
-                timestamp = datetime.utcfromtimestamp(date_ms / 1000).strftime("%Y-%m-%d %H:%M:%S")
+                timestamp = datetime.fromtimestamp(date_ms / 1000).strftime("%Y-%m-%d %H:%M:%S")
                 readings.append({
                     "value_mgdl": sgv,
                     "timestamp": timestamp,
