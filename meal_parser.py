@@ -1,6 +1,9 @@
 """
 Endpoint POST /meals/parse
-Recebe descrição em texto livre → retorna itens estruturados mapeados ao foods.json
+Arquitetura:
+- Claude identifica: qual alimento, quantidade e unidade informada pelo usuário
+- Python converte para CHO usando o banco de dados
+- Se conversão impossível, retorna erro com instrução clara
 """
 import json
 import os
@@ -14,11 +17,9 @@ _all_foods: list[dict] = json.loads(_FOODS_PATH.read_text(encoding="utf-8"))
 
 
 def _normalize(text: str) -> str:
-    """Remove acentos e normaliza para minúsculas."""
     return unicodedata.normalize("NFD", text.lower()).encode("ascii", "ignore").decode()
 
 
-# Índice com tokens normalizados (sem acentos)
 _food_tokens: list[tuple[set[str], dict]] = []
 for food in _all_foods:
     tokens = set(re.findall(r'\b\w{3,}\b', _normalize(food["nome"])))
@@ -26,19 +27,15 @@ for food in _all_foods:
 
 
 def _candidate_foods(description: str, max_candidates: int = 60) -> list[dict]:
-    """Filtra foods.json pelas palavras da descrição — normalizado sem acentos."""
     words = set(re.findall(r'\b\w{3,}\b', _normalize(description)))
-
     scored = []
     for tokens, food in _food_tokens:
         overlap = len(words & tokens)
         if overlap > 0:
             scored.append((overlap, food))
-
     scored.sort(key=lambda x: -x[0])
     candidates = [f for _, f in scored[:max_candidates]]
 
-    # Se poucos candidatos, inclui alimentos comuns como fallback
     if len(candidates) < 10:
         fallback_names = ["arroz", "feijão", "pão", "frango", "carne", "leite", "ovo", "maçã", "banana", "batata"]
         for fn in fallback_names:
@@ -51,39 +48,108 @@ def _candidate_foods(description: str, max_candidates: int = 60) -> list[dict]:
     return candidates[:max_candidates]
 
 
-SYSTEM_PROMPT = """Você é um assistente de contagem de carboidratos para diabetes.
-O usuário descreve o que comeu. Sua tarefa é mapear cada alimento para o item correto do banco de dados fornecido.
+# Unidades que o usuário pode informar e como se relacionam com peso
+UNIT_TO_GRAMS = {
+    "g": 1.0,
+    "grama": 1.0,
+    "gramas": 1.0,
+    "kg": 1000.0,
+    "ml": 1.0,  # aproximação para líquidos
+}
 
-REGRAS OBRIGATÓRIAS:
-1. SEMPRE use cho_unit_g exatamente como está no banco de dados — NUNCA estime ou calcule
-2. SEMPRE use o campo "cho_g" do candidato como cho_unit_g na resposta
-3. Se encontrar o alimento no banco, matched_from_db = true e cho_unit_g = cho_g do banco
-4. Se NÃO encontrar, escolha o candidato mais similar e use seu cho_g — matched_from_db = false
-5. NUNCA invente valores de carboidrato
+# Unidades de medida caseira — Claude vai retornar o tipo
+MEDIDA_TYPES = ["gramas", "unidade", "colher", "xicara", "copo", "fatia", "porcao", "concha", "pegador", "prato"]
 
-Quantidades:
-- Sem quantidade mencionada → quantity: 1.0
-- "dois", "2" → quantity: 2.0
-- "meia", "metade" → quantity: 0.5
-- "um prato" de arroz → quantity: 4 (4 colheres de sopa)
-- "um copo" de leite → quantity: 1
 
-Retorne SOMENTE JSON válido, sem texto adicional, sem markdown:
+def _convert_to_cho(food: dict, user_quantity: float, user_unit: str) -> tuple[float, str]:
+    """
+    Converte quantidade do usuário para CHO.
+    Retorna (cho_total, erro_msg).
+    erro_msg é None se conversão ok, string com instrução se não conseguir.
+    """
+    nome = food["nome"]
+    medida_banco = food["medida"]  # ex: "1 colher de sopa cheia", "1 unidade", "100g"
+    cho_unit = food["cho_g"]       # CHO para 1 medida do banco
+    peso_g = food.get("peso_g")    # peso em gramas de 1 medida do banco
+
+    unit_norm = _normalize(user_unit)
+
+    # Caso 1: usuário informou em gramas/peso
+    if any(u in unit_norm for u in ["g", "grama", "kg", "ml"]):
+        if not peso_g or peso_g == 0:
+            return 0, f'Não é possível converter "{nome}" por peso. Informe em: {medida_banco}'
+        multiplier = 1000.0 if "kg" in unit_norm else 1.0
+        user_grams = user_quantity * multiplier
+        cho = (user_grams / peso_g) * cho_unit
+        return round(cho, 1), None
+
+    # Caso 2: usuário informou em unidades e banco também é por unidade
+    if any(u in unit_norm for u in ["unidade", "uni", "unid", "inteiro", "inteira", "peça", "peca"]):
+        medida_norm = _normalize(medida_banco)
+        if any(u in medida_norm for u in ["unidade", "uni", "inteiro", "peca", "peça"]):
+            cho = user_quantity * cho_unit
+            return round(cho, 1), None
+        # banco não é por unidade
+        return 0, f'"{nome}" não é medido por unidade. Informe em: {medida_banco}'
+
+    # Caso 3: usuário informou colher, xícara, copo etc — verifica se banco usa medida similar
+    medida_norm = _normalize(medida_banco)
+    for keyword in ["colher", "xicara", "copo", "fatia", "porcao", "concha", "pegador", "prato", "sache", "barra", "fatia"]:
+        if keyword in unit_norm and keyword in medida_norm:
+            cho = user_quantity * cho_unit
+            return round(cho, 1), None
+
+    # Caso 4: usuário não informou unidade (quantidade padrão = 1 medida do banco)
+    if unit_norm in ["", "porcao", "porcoes", "dose"]:
+        cho = user_quantity * cho_unit
+        return round(cho, 1), None
+
+    # Caso 5: unidade incompatível
+    return 0, f'Não consigo converter "{user_unit}" para "{nome}". Informe em: {medida_banco}'
+
+
+SYSTEM_PROMPT = """Você é um assistente de identificação de alimentos para contagem de carboidratos.
+
+Sua única função é identificar:
+1. Qual alimento do banco de dados melhor corresponde ao que o usuário descreveu
+2. A quantidade numérica informada pelo usuário
+3. A unidade de medida informada pelo usuário
+
+## REGRAS
+
+- Escolha SEMPRE o item mais simples e genérico do banco (ex: "Arroz branco cozido" > versão específica)
+- Se não houver quantidade, use quantity: 1.0 e unit: "porcao"
+- Se não houver unidade mas houver quantidade numérica, infira a unidade pelo contexto
+- Para frutas sem quantidade → quantity: 1.0, unit: "unidade"
+- Para arroz/feijão/legumes sem quantidade → quantity: 1.0, unit: "porcao"
+- Números por extenso: "dois" → 2.0, "meia" → 0.5, "três" → 3.0
+
+## UNIDADES VÁLIDAS para o campo "unit":
+- "gramas" — quando usuário disse "g", "gramas", "100g"
+- "unidade" — quando usuário disse "unidade", "1 banana", "2 ovos"
+- "colher" — quando disse "colher de sopa", "colher"
+- "xicara" — quando disse "xícara", "xicara"
+- "copo" — quando disse "copo"
+- "fatia" — quando disse "fatia"
+- "concha" — quando disse "concha"
+- "porcao" — quando não informou unidade ou disse "porção"
+
+## FORMATO DE RESPOSTA
+JSON array, sem markdown:
 [
   {
     "food_name": "nome exato do banco",
-    "medida": "medida caseira do banco",
+    "db_food": { objeto completo do banco },
     "quantity": 1.0,
-    "cho_unit_g": 12.0,
-    "kcal": 47.0,
-    "grupo": "grupo do banco",
+    "unit": "unidade",
     "matched_from_db": true
   }
-]"""
+]
+
+Se não encontrar no banco: matched_from_db: false, db_food: null"""
 
 
 async def parse_meal_text(description: str) -> list[dict]:
-    """Chama Claude API para parsear descrição em itens estruturados."""
     candidates = _candidate_foods(description)
 
     candidates_text = json.dumps(
@@ -93,9 +159,9 @@ async def parse_meal_text(description: str) -> list[dict]:
         ensure_ascii=False, indent=None
     )
 
-    user_message = f"""Refeição: "{description}"
+    user_message = f"""Descrição: "{description}"
 
-Banco de dados (use cho_g como cho_unit_g na resposta):
+Banco disponível:
 {candidates_text}
 
 JSON:"""
@@ -123,5 +189,65 @@ JSON:"""
     raw = re.sub(r'^```(?:json)?\s*', '', raw)
     raw = re.sub(r'\s*```$', '', raw)
 
-    items = json.loads(raw)
-    return items if isinstance(items, list) else []
+    claude_items = json.loads(raw)
+    if not isinstance(claude_items, list):
+        return []
+
+    # Python faz a conversão para CHO
+    result = []
+    for item in claude_items:
+        if not item.get("matched_from_db") or not item.get("db_food"):
+            # Não encontrado no banco — bloqueia cálculo
+            result.append({
+                "food_name": item.get("food_name", "Alimento desconhecido"),
+                "medida": None,
+                "quantity": item.get("quantity", 1.0),
+                "cho_unit_g": 0,
+                "kcal": None,
+                "grupo": None,
+                "matched_from_db": False,
+                "conversion_error": f'"{item.get("food_name")}" não encontrado na tabela nutricional. Verifique o nome do alimento.'
+            })
+            continue
+
+        db_food = item["db_food"]
+        # Busca o food real no banco pelo nome (Claude pode ter alterado levemente)
+        food_match = next(
+            (f for f in _all_foods if _normalize(f["nome"]) == _normalize(db_food.get("nome", ""))),
+            None
+        )
+        if not food_match:
+            # Fallback: usa o db_food do Claude diretamente
+            food_match = db_food
+
+        quantity = float(item.get("quantity", 1.0))
+        unit = item.get("unit", "porcao")
+
+        cho_total, error = _convert_to_cho(food_match, quantity, unit)
+
+        if error:
+            result.append({
+                "food_name": item.get("food_name"),
+                "medida": food_match.get("medida"),
+                "quantity": quantity,
+                "cho_unit_g": food_match.get("cho_g", 0),
+                "kcal": food_match.get("kcal"),
+                "grupo": food_match.get("grupo"),
+                "matched_from_db": True,
+                "conversion_error": error
+            })
+        else:
+            result.append({
+                "food_name": item.get("food_name"),
+                "medida": food_match.get("medida"),
+                "quantity": quantity,
+                "unit_informed": unit,
+                "cho_unit_g": food_match.get("cho_g", 0),
+                "cho_total_g": cho_total,
+                "kcal": food_match.get("kcal"),
+                "grupo": food_match.get("grupo"),
+                "matched_from_db": True,
+                "conversion_error": None
+            })
+
+    return result
