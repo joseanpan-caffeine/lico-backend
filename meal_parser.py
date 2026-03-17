@@ -117,6 +117,9 @@ Sua única função é identificar:
 
 ## REGRAS
 
+- PRIORIDADE DE FONTE: Sempre prefira itens com fonte "CDBH-MANUAL" sobre "TACO-UNICAMP" ou "TBCA-IG-USP"
+- Itens CDBH têm medidas caseiras (colher, unidade, fatia). Itens TACO têm medida "100g"
+- Quando o usuário informa peso (ex: "100g de arroz"), escolha o item CDBH mesmo assim — o sistema converte o peso automaticamente
 - Escolha SEMPRE o item mais simples e genérico do banco (ex: "Arroz branco cozido" > versão específica)
 - Se não houver quantidade, use quantity: 1.0 e unit: "porcao"
 - Se não houver unidade mas houver quantidade numérica, infira a unidade pelo contexto
@@ -154,7 +157,7 @@ async def parse_meal_text(description: str) -> list[dict]:
 
     candidates_text = json.dumps(
         [{"nome": f["nome"], "medida": f["medida"], "cho_g": f["cho_g"],
-          "peso_g": f.get("peso_g"), "kcal": f.get("kcal"), "grupo": f["grupo"]}
+          "peso_g": f.get("peso_g"), "kcal": f.get("kcal"), "grupo": f["grupo"], "fonte": f.get("fonte","")}
          for f in candidates],
         ensure_ascii=False, indent=None
     )
