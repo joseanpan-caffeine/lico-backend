@@ -6979,26 +6979,6 @@
     "ig": 57
   },
   {
-    "nome": "Aveia, farelo, “Oat bran”",
-    "medida": "10g",
-    "peso_g": 10.0,
-    "kcal": null,
-    "cho_g": 4.29,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 28
-  },
-  {
-    "nome": "Aveia, flocos, “Quaker”",
-    "medida": "30g",
-    "peso_g": 30.0,
-    "kcal": null,
-    "cho_g": 14.81,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 39
-  },
-  {
     "nome": "Banana, mysore, Musa spp",
     "medida": "110g",
     "peso_g": 110.0,
@@ -7039,16 +7019,6 @@
     "ig": 81
   },
   {
-    "nome": "Biscoito, doce, maisena",
-    "medida": "30g",
-    "peso_g": 30.0,
-    "kcal": null,
-    "cho_g": 18.08,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 50
-  },
-  {
     "nome": "Feijão, carioca, cozido, temperado, Phaseolus vulgaris",
     "medida": "200g",
     "peso_g": 200.0,
@@ -7057,26 +7027,6 @@
     "grupo": "TBCA",
     "fonte": "TBCA-IG-USP",
     "ig": 38
-  },
-  {
-    "nome": "Laranja, suco, s/açúcar, embalagem cartonada",
-    "medida": "200g",
-    "peso_g": 200.0,
-    "kcal": null,
-    "cho_g": 13.67,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 41
-  },
-  {
-    "nome": "Leite, vaca, integral, pó",
-    "medida": "26g",
-    "peso_g": 26.0,
-    "kcal": null,
-    "cho_g": 10.67,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 16
   },
   {
     "nome": "Mamão, papaya, Carica papaya L.",
@@ -7089,16 +7039,6 @@
     "ig": 43
   },
   {
-    "nome": "Mandioca, farinha, torrada",
-    "medida": "35g",
-    "peso_g": 35.0,
-    "kcal": null,
-    "cho_g": 27.83,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 52
-  },
-  {
     "nome": "Mingau, instântaneo, arroz e aveia, “Mingo”",
     "medida": "21g",
     "peso_g": 21.0,
@@ -7107,16 +7047,6 @@
     "grupo": "TBCA",
     "fonte": "TBCA-IG-USP",
     "ig": 71
-  },
-  {
-    "nome": "Pão, trigo, forma, 7 Grãos, light, “Plus Vita”",
-    "medida": "50g",
-    "peso_g": 50.0,
-    "kcal": null,
-    "cho_g": 14.0,
-    "grupo": "TBCA",
-    "fonte": "TBCA-IG-USP",
-    "ig": 42
   },
   {
     "nome": "Polenta, cozida/90 min, congelada/30 days, Zea mays",
@@ -7129,36 +7059,6 @@
     "ig": 68
   },
   {
-    "nome": "Arroz, integral, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 123.5348925,
-    "cho_g": 25.8,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Arroz, tipo 1, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 128.258485666667,
-    "cho_g": 28.1,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Biscoito, salgado, cream cracker",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 431.73228115942,
-    "cho_g": 68.7,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Bolo, mistura para",
     "medida": "100g",
     "peso_g": 100.0,
@@ -7169,41 +7069,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Bolo, pronto, aipim",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 323.851666666667,
-    "cho_g": 47.9,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Canjica, branca, crua",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 357.60259,
     "cho_g": 78.1,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Canjica, com leite integral",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 112.456777220465,
-    "cho_g": 23.6,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cereais, milho, flocos, com sal",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 369.59975,
-    "cho_g": 80.8,
     "grupo": "Cereais e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -7229,151 +7099,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Creme de arroz, pó",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 386.001190336398,
-    "cho_g": 83.9,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Creme de milho, pó",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 333.034192670544,
-    "cho_g": 86.1,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Curau, milho verde",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 78.4338183136559,
-    "cho_g": 13.9,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Farinha, de arroz, enriquecida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 363.056480181224,
-    "cho_g": 85.5,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Farinha, láctea, de cereais",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 414.850517391304,
-    "cho_g": 77.8,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Milho, amido, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 361.366823878261,
-    "cho_g": 87.1,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Milho, verde, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 138.166565,
-    "cho_g": 28.6,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mingau tradicional, pó",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 373.421466666667,
-    "cho_g": 89.3,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Pamonha, barra para cozimento, pré-cozida",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 171.219111666667,
     "cho_g": 30.7,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pão, aveia, forma",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 343.085366666667,
-    "cho_g": 59.6,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pão, de soja",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 308.726323333333,
-    "cho_g": 56.5,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pão, glúten, forma",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 252.99403,
-    "cho_g": 44.1,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pão, milho, forma",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 292.01349,
-    "cho_g": 56.4,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pastel, de carne, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 288.70207151599,
-    "cho_g": 42.0,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pastel, de queijo, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 308.474433887374,
-    "cho_g": 45.9,
     "grupo": "Cereais e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -7385,26 +7115,6 @@
     "kcal": 310.202514333333,
     "cho_g": 57.4,
     "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Polenta, pré-cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 102.741166666667,
-    "cho_g": 23.3,
-    "grupo": "Cereais e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Abóbora, cabotian, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 48.0437425,
-    "cho_g": 10.8,
-    "grupo": "Verduras, hortaliças e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
   },
@@ -7439,211 +7149,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Abobrinha, italiana, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 15.03852,
-    "cho_g": 3.0,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Abobrinha, paulista, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 30.8107022288163,
-    "cho_g": 7.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Acelga, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 20.9423424999999,
-    "cho_g": 4.6,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Agrião, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 16.5788014492753,
-    "cho_g": 2.3,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Aipo, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 19.0914566449706,
-    "cho_g": 4.3,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Alface, americana, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 8.79490323686605,
-    "cho_g": 1.7,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Alface, crespa, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 10.6808565217392,
-    "cho_g": 1.7,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Alface, lisa, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 13.8209014492753,
-    "cho_g": 2.4,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Alface, roxa, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 12.716997363468,
-    "cho_g": 2.5,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Alfavaca, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 29.1836130810579,
-    "cho_g": 5.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Almeirão, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 18.0344289855072,
-    "cho_g": 3.3,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Almeirão, refogado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 65.0819108288685,
-    "cho_g": 5.7,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Batata, baroa, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 80.1197625,
-    "cho_g": 18.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Batata, doce, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 76.7596105034352,
-    "cho_g": 18.4,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Batata, frita, tipo chips, industrializada",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 542.73467338419,
     "cho_g": 51.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Berinjela, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 18.8452855568131,
-    "cho_g": 4.5,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Beterraba, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 32.1543243314028,
-    "cho_g": 7.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Brócolis, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 24.6361631113688,
-    "cho_g": 4.4,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Brócolis, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 25.495131884058,
-    "cho_g": 4.0,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cará, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 77.5849133333334,
-    "cho_g": 18.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cará, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 95.6331347826087,
-    "cho_g": 23.0,
     "grupo": "Verduras, hortaliças e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -7659,121 +7169,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Catalonha, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 23.8884122573733,
-    "cho_g": 4.8,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Catalonha, refogada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 63.4492691488266,
-    "cho_g": 4.8,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cebola, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 39.4200463768116,
-    "cho_g": 8.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cebolinha, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 19.5158855072464,
-    "cho_g": 3.4,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cenoura, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 29.8617777101596,
-    "cho_g": 6.7,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cenoura, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 34.1353884057971,
-    "cho_g": 7.7,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Chicória, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 13.8371202898551,
-    "cho_g": 2.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Chuchu, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 18.539790531377,
-    "cho_g": 4.8,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Chuchu, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 16.9789188405797,
-    "cho_g": 4.1,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Coentro, folhas desidratadas",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 309.070746804476,
     "cho_g": 48.0,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Couve, manteiga, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 27.0566971014493,
-    "cho_g": 4.3,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Couve-flor, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 22.5633492753623,
-    "cho_g": 4.5,
     "grupo": "Verduras, hortaliças e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -7789,81 +7189,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Fécula, de mandioca",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 330.850558333333,
-    "cho_g": 81.1,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Feijão, broto, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 38.7232363754113,
-    "cho_g": 7.8,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Inhame, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 96.699831884058,
-    "cho_g": 23.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Jiló, cru",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 27.3651434782609,
     "cho_g": 6.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Jurubeba, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 125.811635,
-    "cho_g": 23.1,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mandioca, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 125.35825,
-    "cho_g": 30.1,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mandioca, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 151.416956521739,
-    "cho_g": 36.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mandioca, frita",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 300.05524338915,
-    "cho_g": 50.3,
     "grupo": "Verduras, hortaliças e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -7889,71 +7219,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Mostarda, folha, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 18.1073890521725,
-    "cho_g": 3.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Nhoque, batata, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 180.775273993413,
-    "cho_g": 36.8,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Nabo, cru",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 18.1866246376812,
     "cho_g": 4.1,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Palmito, Juçara, em conserva",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 23.1997164340813,
-    "cho_g": 4.3,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Palmito, pupunha, em conserva",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 29.4319633333333,
-    "cho_g": 5.5,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pão, de queijo, assado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 363.077913333333,
-    "cho_g": 34.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pepino, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 9.53369130434782,
-    "cho_g": 2.0,
     "grupo": "Verduras, hortaliças e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -7969,36 +7239,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Pimentão, verde, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 21.2858811594203,
-    "cho_g": 4.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Polvilho, doce",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 351.226733333333,
-    "cho_g": 86.8,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Quiabo, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 29.9392621500691,
-    "cho_g": 6.4,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Rabanete, cru",
     "medida": "100g",
     "peso_g": 100.0,
@@ -8009,291 +7249,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Repolho, branco, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 17.1188028985507,
-    "cho_g": 3.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Repolho, roxo, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 30.9075029543241,
-    "cho_g": 7.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Rúcula, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 13.1332566072941,
-    "cho_g": 2.2,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Serralha, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 30.3979341666666,
-    "cho_g": 4.9,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Taioba, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 34.2089183333333,
-    "cho_g": 5.4,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Vagem, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 24.8983579710145,
-    "cho_g": 5.3,
-    "grupo": "Verduras, hortaliças e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Abacate, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 96.1547086956522,
-    "cho_g": 6.0,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Abacaxi, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 48.3222130434782,
-    "cho_g": 12.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Abacaxi, polpa, congelada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 30.5917991943359,
-    "cho_g": 7.8,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Abiu, cru",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 62.4240984085401,
     "cho_g": 14.9,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Açaí, polpa, com xarope de guaraná e glucose",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 110.29759,
-    "cho_g": 21.5,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Ameixa, calda, enlatada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 182.84662,
-    "cho_g": 46.9,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Ameixa, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 52.5424826086957,
-    "cho_g": 13.9,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Ameixa, em calda, enlatada, drenada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 177.359185315371,
-    "cho_g": 47.7,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Atemóia, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 96.9715874479214,
-    "cho_g": 25.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Banana, da terra, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 128.024452173913,
-    "cho_g": 33.7,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Banana, doce em barra",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 280.105192550639,
-    "cho_g": 75.7,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Banana, figo, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 105.08265,
-    "cho_g": 27.8,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Banana, ouro, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 112.366047826087,
-    "cho_g": 29.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Banana, pacova, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 77.9095279250741,
-    "cho_g": 20.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cajá, polpa, congelada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 26.3322693110506,
-    "cho_g": 6.4,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Caju, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 43.0650685217391,
-    "cho_g": 10.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Caju, polpa, congelada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 36.56868,
-    "cho_g": 9.4,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Caju, suco concentrado, envasado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 45.1086266666667,
-    "cho_g": 10.7,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Carambola, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 45.7408887934287,
-    "cho_g": 11.5,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cupuaçu, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 49.4225587743719,
-    "cho_g": 10.4,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cupuaçu, polpa, congelada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 48.79689,
-    "cho_g": 11.4,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Figo, enlatado, em calda",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 184.360717391304,
-    "cho_g": 50.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Fruta-pão, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 67.04562,
-    "cho_g": 17.2,
     "grupo": "Frutas e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -8319,40 +7279,10 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Jaca, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 87.92035,
-    "cho_g": 22.5,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Laranja, baía, crua",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 45.4381173913043,
-    "cho_g": 11.5,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Laranja, da terra, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 51.4711286392808,
-    "cho_g": 12.9,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Laranja, lima, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 45.7010387806296,
     "cho_g": 11.5,
     "grupo": "Frutas e derivados",
     "fonte": "TACO-UNICAMP",
@@ -8399,46 +7329,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Limão, tahiti, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 31.8181534301639,
-    "cho_g": 11.1,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mamão, doce em calda, drenado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 195.627474821786,
-    "cho_g": 54.0,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mamão, Formosa, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 45.3407478260869,
-    "cho_g": 11.6,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mamão, Papaia, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 40.1567689422966,
-    "cho_g": 10.4,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Mamão verde, doce em calda, drenado",
     "medida": "100g",
     "peso_g": 100.0,
@@ -8454,26 +7344,6 @@
     "peso_g": 100.0,
     "kcal": 57.5927784746488,
     "cho_g": 14.9,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Mexerica, Rio, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 36.8713500000001,
-    "cho_g": 9.3,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pequi, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 204.96677,
-    "cho_g": 13.0,
     "grupo": "Frutas e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -8499,16 +7369,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Romã, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 55.739,
-    "cho_g": 15.1,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Tangerina, Poncã, crua",
     "medida": "100g",
     "peso_g": 100.0,
@@ -8525,46 +7385,6 @@
     "kcal": 262.015195072393,
     "cho_g": 26.5,
     "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Uva, Itália, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 52.8731000000001,
-    "cho_g": 13.6,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Uva, Rubi, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 49.06129,
-    "cho_g": 12.7,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Uva, suco concentrado, envasado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 57.65536,
-    "cho_g": 14.7,
-    "grupo": "Frutas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Manteiga, com sal",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 725.968926845999,
-    "cho_g": 0.1,
-    "grupo": "Gorduras e óleos",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
   },
@@ -8639,76 +7459,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Croquete, de carne, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 245.771925297141,
-    "cho_g": 13.9,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Empada de frango, pré-cozida, assada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 358.191666666667,
-    "cho_g": 47.5,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Empada, de frango, pré-cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 377.479666666667,
-    "cho_g": 35.5,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Frango, coração, grelhado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 207.273643333333,
-    "cho_g": 0.6,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Frango, fígado, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 106.484566666667,
-    "cho_g": -0.0,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Frango, filé, à milanesa",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 220.87278,
-    "cho_g": 7.5,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Hambúrguer, bovino, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 214.836,
-    "cho_g": 4.2,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Presunto, com capa de gordura",
     "medida": "100g",
     "peso_g": 100.0,
@@ -8729,136 +7479,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Quibe, assado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 136.228876141588,
-    "cho_g": 12.9,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Quibe, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 109.490669294755,
-    "cho_g": 10.8,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Quibe, frito",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 253.83130886964,
-    "cho_g": 12.3,
-    "grupo": "Carnes e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Iogurte, natural",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 51.4895333333333,
-    "cho_g": 1.9,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Leite, condensado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 312.5726,
-    "cho_g": 57.0,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Leite, de cabra",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 66.4157418865433,
-    "cho_g": 5.2,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Leite, de vaca, desnatado, pó",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 361.608,
-    "cho_g": 53.0,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Leite, fermentado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 69.621474,
-    "cho_g": 15.7,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Queijo, minas, frescal",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 264.273128,
-    "cho_g": 3.2,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Queijo, mozarela",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 329.870718420887,
-    "cho_g": 3.0,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Queijo, parmesão",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 452.963755333333,
-    "cho_g": 1.7,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Queijo, pasteurizado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 303.079803333333,
-    "cho_g": 5.7,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Queijo, prato",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 359.880462405055,
-    "cho_g": 1.9,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Maria mole",
     "medida": "100g",
     "peso_g": 100.0,
@@ -8869,41 +7489,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Queijo, ricota",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 139.73178,
-    "cho_g": 3.8,
-    "grupo": "Leite e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Bebida isotônica, sabores variados",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 25.6133333333333,
     "cho_g": 6.4,
-    "grupo": "Bebidas (alcoólicas e não alcoólicas)",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Café, infusão 10%",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 9.07086859961352,
-    "cho_g": 1.5,
-    "grupo": "Bebidas (alcoólicas e não alcoólicas)",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cana, caldo de",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 65.3435982689857,
-    "cho_g": 18.2,
     "grupo": "Bebidas (alcoólicas e não alcoólicas)",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -8949,76 +7539,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Coco, água de",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 21.5085942405065,
-    "cho_g": 5.3,
-    "grupo": "Bebidas (alcoólicas e não alcoólicas)",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Ovo, de codorna, inteiro, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 176.8939,
-    "cho_g": 0.8,
-    "grupo": "Ovos e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Ovo, de galinha, gema, cozida/10minutos",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 352.67334,
-    "cho_g": 1.6,
-    "grupo": "Ovos e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Açúcar, cristal",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 386.845724,
-    "cho_g": 99.6,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Açúcar, mascavo",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 368.554822524389,
-    "cho_g": 94.5,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Açúcar, refinado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 386.574824,
-    "cho_g": 99.5,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Chocolate, ao leite",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 539.586666666667,
-    "cho_g": 59.6,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Chocolate, meio amargo",
     "medida": "100g",
     "peso_g": 100.0,
@@ -9029,51 +7549,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Cocada branca",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 448.84545242331,
-    "cho_g": 81.4,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Doce, de abóbora, cremoso",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 198.936063049634,
     "cho_g": 54.6,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Doce, de leite, cremoso",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 306.310130231059,
-    "cho_g": 59.5,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Geléia, mocotó, natural",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 106.086666666667,
-    "cho_g": 24.2,
-    "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Glicose de milho",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 292.118405299187,
-    "cho_g": 79.4,
     "grupo": "Produtos açucarados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -9095,16 +7575,6 @@
     "kcal": 351.958122101545,
     "cho_g": 90.8,
     "grupo": "Produtos açucarados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Café, pó, torrado",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 418.618666666667,
-    "cho_g": 65.8,
-    "grupo": "Miscelâneas",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
   },
@@ -9179,31 +7649,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Azeitona, verde, conserva",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 136.93643,
-    "cho_g": 4.1,
-    "grupo": "Outros alimentos industrializados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Chantilly, spray, com gordura vegetal",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 314.956000266667,
     "cho_g": 16.9,
-    "grupo": "Outros alimentos industrializados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Leite, de coco",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 166.160301615546,
-    "cho_g": 2.2,
     "grupo": "Outros alimentos industrializados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -9215,16 +7665,6 @@
     "kcal": 302.152677687824,
     "cho_g": 7.9,
     "grupo": "Outros alimentos industrializados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Arroz carreteiro",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 153.772,
-    "cho_g": 11.6,
-    "grupo": "Alimentos preparados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
   },
@@ -9249,71 +7689,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Camarão à baiana",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 100.783043004036,
-    "cho_g": 3.2,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Charuto, de repolho",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 78.2347292222182,
-    "cho_g": 10.1,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cuscuz, de milho, cozido com sal",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 113.459481666667,
-    "cho_g": 25.3,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cuscuz, paulista",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 142.123,
-    "cho_g": 22.5,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Cuxá, molho",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 80.0916156365077,
-    "cho_g": 5.7,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Feijão tropeiro mineiro",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 151.561856830955,
     "cho_g": 19.6,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Frango, com açafrão",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 112.783768841227,
-    "cho_g": 4.1,
     "grupo": "Alimentos preparados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -9334,26 +7714,6 @@
     "peso_g": 100.0,
     "kcal": 86.349230299592,
     "cho_g": 6.6,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Salada, de legumes, com maionese",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 96.1035883984566,
-    "cho_g": 8.9,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Salpicão, de frango",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 147.864596134027,
-    "cho_g": 4.6,
     "grupo": "Alimentos preparados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -9389,16 +7749,6 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Tapioca, com manteiga",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 347.826556257824,
-    "cho_g": 63.6,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Tucupi, com pimenta-de-cheiro",
     "medida": "100g",
     "peso_g": 100.0,
@@ -9409,51 +7759,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Vaca atolada",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 144.89697968479,
-    "cho_g": 10.1,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Virado à paulista",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 306.94678645132,
-    "cho_g": 14.1,
-    "grupo": "Alimentos preparados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Amendoim, grão, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 544.052655799433,
-    "cho_g": 20.3,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Amendoim, torrado, salgado",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 605.781092917019,
     "cho_g": 18.7,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Ervilha, em vagem",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 88.0935819997785,
-    "cho_g": 14.2,
     "grupo": "Leguminosas e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -9469,111 +7779,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Feijão, fradinho, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 78.0088966666667,
-    "cho_g": 13.5,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Feijão, jalo, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 92.73992,
-    "cho_g": 16.5,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Feijão, preto, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 77.0272666666667,
-    "cho_g": 14.0,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Feijão, rajado, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 84.7018527334929,
-    "cho_g": 15.3,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Feijão, rosinha, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 67.8662287714283,
-    "cho_g": 11.8,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Feijão, roxo, cozido",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 76.8933823179006,
-    "cho_g": 12.9,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Guandu, cru",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 344.133651284993,
     "cho_g": 64.0,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Lentilha, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 92.6387662522992,
-    "cho_g": 16.3,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Lentilha, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 339.141240203553,
-    "cho_g": 62.0,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Paçoca, amendoim",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 486.927086464524,
-    "cho_g": 52.4,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Soja, farinha",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 403.955845810399,
-    "cho_g": 38.4,
     "grupo": "Leguminosas e derivados",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
@@ -9589,71 +7799,11 @@
     "cho_por_100g": true
   },
   {
-    "nome": "Tremoço, cru",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 381.278173960129,
-    "cho_g": 43.8,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Tremoço, em conserva",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 120.642585344871,
-    "cho_g": 12.4,
-    "grupo": "Leguminosas e derivados",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
     "nome": "Castanha-do-Brasil, crua",
     "medida": "100g",
     "peso_g": 100.0,
     "kcal": 642.963071681069,
     "cho_g": 15.1,
-    "grupo": "Nozes e sementes",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Gergelim, semente",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 583.54671475455,
-    "cho_g": 21.6,
-    "grupo": "Nozes e sementes",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Linhaça, semente",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 495.096113843651,
-    "cho_g": 43.3,
-    "grupo": "Nozes e sementes",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Pupunha, cozida",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 218.533880876601,
-    "cho_g": 29.6,
-    "grupo": "Nozes e sementes",
-    "fonte": "TACO-UNICAMP",
-    "cho_por_100g": true
-  },
-  {
-    "nome": "Noz, crua",
-    "medida": "100g",
-    "peso_g": 100.0,
-    "kcal": 620.060019790567,
-    "cho_g": 18.4,
     "grupo": "Nozes e sementes",
     "fonte": "TACO-UNICAMP",
     "cho_por_100g": true
