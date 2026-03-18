@@ -1,5 +1,5 @@
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timezone
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from sqlalchemy import select
 from database import AsyncSessionLocal
@@ -11,23 +11,20 @@ logger = logging.getLogger(__name__)
 scheduler = AsyncIOScheduler(timezone="America/Bahia")
 
 
-def parse_timestamp(ts_str: str) -> datetime:
-    formats = [
-        "%Y-%m-%d %H:%M:%S",
-        "%Y-%m-%dT%H:%M:%S",
-        "%m/%d/%Y %I:%M:%S %p",
-    ]
+def parse_timestamp_utc(ts_str: str) -> datetime:
+    """Converte timestamp BRT (vindo do libre.py) de volta para UTC para salvar no banco."""
+    from datetime import timedelta
+    formats = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%m/%d/%Y %I:%M:%S %p"]
     for fmt in formats:
         try:
             dt = datetime.strptime(ts_str, fmt)
-            # Nightscout armazena em UTC — converte para BRT (UTC-3)
-            return dt - timedelta(hours=3)
+            return dt + timedelta(hours=3)  # BRT → UTC
         except ValueError:
             continue
     try:
-        return datetime.fromisoformat(ts_str) - timedelta(hours=3)
+        return datetime.fromisoformat(ts_str)
     except Exception:
-        return datetime.now()
+        return datetime.utcnow()
 
 
 async def poll_libre():
@@ -48,7 +45,7 @@ async def poll_libre():
                 if not r.get("timestamp") or not r.get("value_mgdl"):
                     continue
 
-                ts = parse_timestamp(str(r["timestamp"]))
+                ts = parse_timestamp_utc(str(r["timestamp"]))
 
                 existing = await db.execute(
                     select(GlucoseReading).where(GlucoseReading.timestamp == ts)
