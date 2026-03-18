@@ -7,7 +7,7 @@ from typing import Optional
 
 from fastapi import FastAPI, Depends, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import select, text
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from database import init_db, get_db
@@ -103,14 +103,6 @@ async def force_sync():
     await poll_libre()
     return {"message": "Sync disparado"}
 
-
-# ─── Admin ────────────────────────────────────────────────────────────────────
-
-@app.delete("/admin/clear-glucose")
-async def clear_glucose(db: AsyncSession = Depends(get_db)):
-    await db.execute(text("TRUNCATE TABLE glucose_readings RESTART IDENTITY"))
-    await db.commit()
-    return {"status": "cleared"}
 
 
 # ─── Food Search ──────────────────────────────────────────────────────────────
