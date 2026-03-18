@@ -48,7 +48,7 @@ async def poll_libre():
                 ts = parse_timestamp_utc(str(r["timestamp"]))
 
                 existing = await db.execute(
-                    select(GlucoseReading).where(GlucoseReading.timestamp == ts)
+                    select(GlucoseReading).where(GlucoseReading.timestamp == ts).limit(1)
                 )
                 if existing.scalar_one_or_none():
                     continue
